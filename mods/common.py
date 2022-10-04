@@ -39,14 +39,14 @@ def gs_syx(carry, head=None):
         head_i = [0x41, 0x10, 0x42, 0x12]
     else:
         head_i = head
-    return [0xF0] + head_i + carry + [checksum(carry), 0xF7]
+    return [0xF0] + head_i + carry + [128 - (sum(carry) % 128), 0xF7]
 
 def tostr(carry):
     tf = ""
     for i in carry:
         t1 = hex(i).replace("0x", "")
-        if len(t1) == 0:
-            tf += "0" + t1 + " "
+        if len(t1) == 1:
+            tf += "0" + t1.upper() + " "
         else:
-            tf += t1 + " "
+            tf += t1.upper() + " "
     return tf[:-1]
