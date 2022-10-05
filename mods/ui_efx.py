@@ -86,7 +86,7 @@ def ui_efx():
             cmnt = cmnt_port + " Channel " + str(ipt_chnl) + " EFX Send ON"
         else:
             raise
-        resx = common.gs_syx([port, channel + 0x31, 0x22, ipt_mode])
+        resx = common.gs_syx([port, channel + 0x30, 0x22, ipt_mode])
     else:
         raise
     return resx, cmnt

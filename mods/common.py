@@ -26,7 +26,12 @@ def get_port_and_channel():
         ipt_chnl = int(input("MIDI Channel : "))
         if ipt_chnl > 16 or ipt_chnl < 1:
             raise
-        channel = 0x0F + ipt_chnl
+        elif ipt_chnl == 10:
+            channel = 0x10
+        elif ipt_chnl < 10:
+            channel = 0x10 + ipt_chnl
+        else:
+            channel = 0x0F + ipt_chnl
     except:
         raise ValueError("Invalid Channel Selection")
     return port_and_channel(port, channel, cmnt_port, ipt_chnl)

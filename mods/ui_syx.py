@@ -124,7 +124,7 @@ def outport():
     except:
         raise ValueError("Invalid Output Port Selection")
     # SysEx Generation
-    trka = [port, channel + 0x31, 0x21, oprt]
+    trka = [port, channel + 0x30, 0x21, oprt]
     return [common.gs_syx(trka),
             "Send " + cmnt_port + " Channel " + str(ipt_chnl) + " to " + cmnt_oprt]
 
@@ -147,7 +147,7 @@ def sendeq():
             raise
     except:
         raise ValueError("Invalid Mode Selection")
-    trka = [port, channel + 0x31, 0x20, ipt_mode]
+    trka = [port, channel + 0x30, 0x20, ipt_mode]
     return [common.gs_syx(trka), cmnt]
 
 def reverb():
