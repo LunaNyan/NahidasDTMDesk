@@ -5,7 +5,11 @@ from mods import storage
 
 def ui_main():
     try:
-        print("0 : Temporary Storage (Current : " + str(len(storage.temp_store)) + ")")
+        if storage.protected:
+            prt = ", Protected"
+        else:
+            prt = ""
+        print("0 : Temporary Storage (Current : " + str(len(storage.temp_store)) + prt +")")
         print("=====")
         print("1 : MIDI Reset")
         print("2 : System Effects")
