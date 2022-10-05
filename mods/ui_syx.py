@@ -1,4 +1,50 @@
 from mods import common as common
+import math
+
+def delay_time_center(val):
+    if val < 1000 or val > 0.1:
+        # Delay Time Center Negotiation
+        if val >= 0.1 and val <= 2:
+            # 0.1 ~ 2.0 (0.1)
+            res = math.trunc(val / 0.1)
+            rest = math.trunc(val / 0.1) * 0.1
+        elif val > 2 and val <= 5:
+            # 2.2 ~ 5.0 (0.2)
+            res = 0x14 + int(math.trunc((val - 2) / 0.2))
+            rest = math.trunc(val / 0.2) * 0.2
+        elif val > 5 and val <= 10:
+            # 5.5 ~ 10.0 (0.5)
+            res = 0x23 + int(math.trunc((val - 5) / 0.5))
+            rest = math.trunc(val / 0.5) * 0.5
+        elif val > 10 and val <= 20:
+            # 11 ~ 20(1)
+            res = 0x2d + int(math.trunc((val - 10) / 1))
+            rest = math.trunc(val / 1)
+        elif val > 20 and val <= 50:
+            # 20 ~ 50 (2)
+            res = 0x37 + int(math.trunc((val - 20) / 2))
+            rest = math.trunc((val) / 2) * 2
+        elif val > 50 and val <= 100:
+            # 50 ~ 100 (5)
+            res = 0x46 + int(math.trunc((val - 50) / 5))
+            rest = math.trunc((val) / 5) * 5
+        elif val > 100 and val <= 200:
+            # 100 ~ 200 (10)
+            res = 0x50 + int(math.trunc((val - 100) / 10))
+            rest = math.trunc(val / 10) * 10
+        elif val > 200 and val <= 500:
+            # 200 ~ 500 (20)
+            res = 0x5A + int(math.trunc((val - 200) / 20))
+            rest = math.trunc(val / 20) * 20
+        elif val > 500 and val <= 1000:
+            # 500 ~ 1000 (50)
+            res = 0x69 + int(math.trunc((val - 500) / 50))
+            rest = math.trunc(val / 50) * 50
+        else:
+            raise ValueError
+        return res, rest
+    else:
+        raise ValueError
 
 def reset():
     print("0 : General MIDI Level 1")
@@ -183,6 +229,42 @@ def delay():
     macro_lst = ["Delay 1", "Delay 2", "Delay 3", "Delay 4", "Pan Delay 1", "Pan Delay 2", "Pan Delay 3", "Pan Delay 4",
                  "Delay to Reverb", "Pan Repeat"]
     print("will be implemented later")
+    cnt = 0
+    for i in menu_lst:
+        print(str(cnt) + " : " + i)
+        cnt += 1
+    try:
+        ipt_phase1 = int(input("Menu : "))
+        if ipt_phase1 == 2:
+            # Time Center
+            ipt_phase2 = int(input("Delay Time Center (0.1 ~ 1000) : "))
+            res, rest = delay_time_center(ipt_phase2)
+            print("Optimized to " + str(rest))
+            cmnt = "Set Delay Time Center to " + str(rest)
+            resx = common.gs_syx([0x40, 0x01, menu_address[ipt_phase1], res])
+        elif ipt_phase1 == 3 or ipt_phase1 == 4:
+            # Time Ratio (n / 4, 4 ~ 500%)
+            ipt_phase2 = int(input("Delay " + menu_lst[ipt_phase1] + " (4 ~ 500%) : "))
+            print("Optimized to " + str(round(ipt_phase2 / 4, 0) * 4) + "%")
+            res = round(ipt_phase2 / 4, 0)
+            cmnt = "Set Delay " + menu_lst[ipt_phase1] + " to " + str(round(ipt_phase2 / 4, 0) * 4) + "%"
+            resx = common.gs_syx([0x40, 0x01, menu_address[ipt_phase1], res])
+        else:
+            if ipt_phase1 == 0:
+                print("Chorus Macro")
+                cnt = 0
+                for i in macro_lst:
+                    print(str(cnt) + " : " + i)
+                    cnt += 1
+                ipt_max = 9
+            else:
+                ipt_max = 127
+            ipt_phase2 = int(input("Delay " + menu_lst[ipt_phase1] + " (0 ~ " + str(ipt_max) + ") : "))
+            cmnt = "Set Delay " + menu_lst[ipt_phase1] + " to " + str(ipt_phase2)
+            resx = common.gs_syx([0x40, 0x01, menu_address[ipt_phase1], ipt_phase2])
+        return [resx, cmnt]
+    except:
+        raise ValueError("Invalid Input")
 
 def syseq():
     print("System EQ")

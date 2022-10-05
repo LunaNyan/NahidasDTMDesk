@@ -41,6 +41,14 @@ def gs_syx(carry, head=None):
         head_i = head
     return [0xF0] + head_i + carry + [128 - (sum(carry) % 128), 0xF7]
 
+def hex2str_once(hx):
+    t1 = hex(hx).replace("0x", "")
+    if len(t1) == 1:
+        tf = "0" + t1.upper() + " "
+    else:
+        tf = t1.upper() + " "
+    return tf
+
 def tostr(carry):
     tf = ""
     for i in carry:

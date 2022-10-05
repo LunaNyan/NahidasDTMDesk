@@ -1,4 +1,5 @@
-from mods import syx
+from mods import ui_syx
+from mods import ui_efx
 from mods import storage
 
 def ui_main():
@@ -14,7 +15,7 @@ def ui_main():
         if ipt1 == 0:
             storage.store_menu()
         elif ipt1 == 1:
-            storage.store(syx.reset())
+            storage.store(ui_syx.reset())
         elif ipt1 == 2:
             print("System Effects")
             print("1 : Reverb")
@@ -23,13 +24,13 @@ def ui_main():
             print("4 : System EQ")
             ipt2 = int(input(">> "))
             if ipt2 == 1:
-                storage.store(syx.reverb())
+                storage.store(ui_syx.reverb())
             elif ipt2 == 2:
-                storage.store(syx.chorus())
+                storage.store(ui_syx.chorus())
             elif ipt2 == 3:
-                storage.store(syx.delay())
+                storage.store(ui_syx.delay())
             elif ipt2 == 4:
-                storage.store(syx.syseq())
+                storage.store(ui_syx.syseq())
         elif ipt1 == 3:
             print("Channel Settings")
             print("1 : Rhythm Map")
@@ -37,10 +38,12 @@ def ui_main():
             print("3 : Send to EQ")
             ipt2 = int(input(">> "))
             if ipt2 == 1:
-                storage.store(syx.rhythm())
+                storage.store(ui_syx.rhythm())
             elif ipt2 == 2:
-                storage.store(syx.outport())
+                storage.store(ui_syx.outport())
             elif ipt2 == 3:
-                storage.store(syx.sendeq())
+                storage.store(ui_syx.sendeq())
+        elif ipt1 == 4:
+            storage.store(ui_efx.ui_efx())
     except Exception as e:
         print(e)

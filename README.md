@@ -1,4 +1,5 @@
 # TODO
- - Delay
- - EFX
- - Save to CSV
+ - Etc
+  - Display
+  - User Inst?
+  - User Drum?

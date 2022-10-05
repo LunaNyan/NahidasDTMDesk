@@ -18,6 +18,7 @@ def store_menu():
             for i in temp_store:
                 print("#" + str(cnt) + " : " + i[1])
                 print("    " + common.tostr(i[0]))
+                cnt += 1
     elif ipt == "2":
         if len(temp_store) == 0:
             print("No Items in Temporary Storage")
@@ -44,7 +45,15 @@ def store_menu():
                 print("exit")
                 return
     elif ipt == "4":
-        print("Will be Implemented later")
+        print("save to comma-separated CSV")
+        ipt_fn = input("Filename (.csv) : ")
+        t = ""
+        for i in temp_store:
+            t += common.tostr(i[0]) + "," + i[1] + "\n"
+        f = open(ipt_fn + ".csv", 'w', encoding='utf8')
+        f.write(t)
+        f.close()
+        print("saved")
     else:
         print("exit")
         return
