@@ -34,7 +34,8 @@ def ui_efx():
     print("EFX Menu")
     print("1 : Set EFX Macro")
     print("2 : Set EFX Parameter")
-    print("3 : Channel EFX Send")
+    print("3 : EFX Global Parameters")
+    print("4 : Channel EFX Send")
     ipt1 = int(input("efx> "))
     if ipt1 == 1:
         ipt2 = findefx()
@@ -56,14 +57,28 @@ def ui_efx():
         resx = common.gs_syx([0x40, 0x03, ep[1], res])
         cmnt = "Set EFX " + ep[0] + " to " + str(resv)
     elif ipt1 == 3:
+        sfx_menu = ["Send Level to Reverb", "Send Level to Chorus", "Send Level to Delay", "Control Source 1",
+                    "Control Depth 1", "Control Source 2", "Control Depth 2", "Send EQ Switch"]
+        sfx_range = ["0 ~ 127", "0 ~ 127", "0 ~ 127", "Off, CC1-95, CAf, Bend", "0 ~ 64 ~ 127",
+                     "Off, CC1-95, CAf, Bend", "0 ~ 64 ~ 127", "OFF / ON"]
+        sfx_address = [0x17, 0x18, 0x19, 0x1B, 0x1C, 0x1D, 0x1E, 0x1F]
+        cnt = 0
+        for i in sfx_menu:
+            print(str(cnt) + " : " + i)
+            cnt += 1
+        ipt2 = int(input("EFX Global Param : "))
+        ipt3 = int(input("EFX " + sfx_menu[ipt2] + " : "))
+        resx = common.gs_syx([0x40, 0x03, sfx_address[ipt2], ipt3])
+        cmnt = "Set EFX " + sfx_menu[ipt2] + " to " + str(ipt3)
+    elif ipt1 == 4:
         cp = common.get_port_and_channel()
         port = cp.port
         channel = cp.channel
         cmnt_port = cp.cmnt_port
         ipt_chnl = cp.channel_actual
         # Mode
-        print("0 : Exclude from System EQ")
-        print("1 : Include to System EQ (Default)")
+        print("0 : EFX OFF")
+        print("1 : EFX ON")
         ipt_mode = int(input("Mode : "))
         if ipt_mode == 0:
             cmnt = cmnt_port + " Channel " + str(ipt_chnl) + " EFX Send OFF"
@@ -71,7 +86,7 @@ def ui_efx():
             cmnt = cmnt_port + " Channel " + str(ipt_chnl) + " EFX Send ON"
         else:
             raise
-        resx = common.gs_syx([port, channel, 0x22, ipt_mode])
+        resx = common.gs_syx([port, channel + 0x31, 0x22, ipt_mode])
     else:
         raise
     return resx, cmnt
