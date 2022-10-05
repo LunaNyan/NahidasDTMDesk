@@ -1,10 +1,11 @@
 from mods import ui_syx
 from mods import ui_efx
+from mods import ui_etc
 from mods import storage
 
 def ui_main():
     try:
-        print("0 : Temporary Storage")
+        print("0 : Temporary Storage (Current : " + str(len(storage.temp_store)) + ")")
         print("=====")
         print("1 : MIDI Reset")
         print("2 : System Effects")
@@ -45,5 +46,8 @@ def ui_main():
                 storage.store(ui_syx.sendeq())
         elif ipt1 == 4:
             storage.store(ui_efx.ui_efx())
+        elif ipt1 == 5:
+            storage.store(ui_etc.ui_etc())
     except Exception as e:
         print(e)
+    print("")

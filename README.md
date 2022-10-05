@@ -1,5 +1,8 @@
 # TODO
+ - EFX Param
+   - EQ-Freq
+   - Azimuth
  - Etc
-  - Display
-  - User Inst?
-  - User Drum?
+   - Dot-Matrix Display
+ - User Inst?
+ - User Drum?

@@ -32,7 +32,7 @@ def get_port_and_channel():
     return port_and_channel(port, channel, cmnt_port, ipt_chnl)
 
 def checksum(carry):
-    return hex(128 - (sum(carry) % 128))
+    return 128 - (sum(carry) % 128)
 
 def gs_syx(carry, head=None):
     if head == None:

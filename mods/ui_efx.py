@@ -1,6 +1,35 @@
 from mods import efx
 from mods import common
 
+def findefx():
+    cnt = 0
+    pg = 0
+    lst = []
+    for i in efx.efx_types:
+        lst.append("#" + str(cnt) + " : " + i[0] + "(" + common.hex2str_once(i[1]) + "h, " + common.hex2str_once(
+            i[2]) + "h)")
+        cnt += 1
+    while True:
+        for i in range(16):
+            print(lst[(pg * 16) + i])
+        ipt = input("EFX Macro (Page : " + str(pg) + ", << / < / > / >>) : ")
+        if ipt == "<<":
+            pg = 0
+        elif ipt == ">>":
+            pg = 3
+        elif ipt == "<":
+            if pg == 0:
+                print("you are in first page")
+            else:
+                pg -= 1
+        elif ipt == ">":
+            if pg == 3:
+                print("you are in last page")
+            else:
+                pg += 1
+        else:
+            return int(ipt)
+
 def ui_efx():
     print("EFX Menu")
     print("1 : Set EFX Macro")
@@ -8,21 +37,11 @@ def ui_efx():
     print("3 : Channel EFX Send")
     ipt1 = int(input("efx> "))
     if ipt1 == 1:
-        cnt = 0
-        for i in efx.efx_types:
-            print("#" + str(cnt) + " : " + i[0] + "(" + common.hex2str_once(i[1]) + "h, " + common.hex2str_once(
-                i[2]) + "h)")
-            cnt += 1
-        ipt2 = int(input("EFX Macro : "))
+        ipt2 = findefx()
         resx = common.gs_syx([0x40, 0x03, 0x00, efx.efx_types[ipt2][1], efx.efx_types[ipt2][2]])
         cmnt = "Set EFX Macro to " + efx.efx_types[ipt2][0]
     elif ipt1 == 2:
-        cnt = 0
-        for i in efx.efx_types:
-            print("#" + str(cnt) + " : " + i[0] + "(" + common.hex2str_once(i[1]) + "h, " + common.hex2str_once(
-                i[2]) + "h)")
-            cnt += 1
-        ipt2 = int(input("EFX Macro to Set Parameter : "))
+        ipt2 = findefx()
         cnt = 0
         for k in efx.efx_types[ipt2][3]:
             print("#" + str(cnt) + " : " + k[0])

@@ -218,7 +218,10 @@ def cfreq(value):
         return 0x78, 8000
 
 def eqfreq(value):
-    return
+    # value == result
+    if int(value) > 127 or int(value) < 0:
+        raise ValueError
+    return int(value), int(value)
 
 def manual(value):
     # 100 ~ 300 : 10
@@ -235,7 +238,10 @@ def manual(value):
         return 0x37 + math.trunc((v - 1000) / 100), math.trunc(v / 100) * 100
 
 def azimuth(value):
-    return
+    # value == result
+    if int(value) > 127 or int(value) < 0:
+        raise ValueError
+    return int(value), int(value)
 
 def accl(value):
     return [0x00, 0x08, 0x10, 0x18, 0x20, 0x28, 0x30, 0x38, 0x40, 0x48, 0x50, 0x58, 0x60, 0x68, 0x70, 0x78][int(value)], value
