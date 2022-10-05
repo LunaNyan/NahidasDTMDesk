@@ -1,6 +1,7 @@
 from mods import ui_syx
 from mods import ui_efx
 from mods import ui_etc
+from mods import ui_mido
 from mods import storage
 from mods import common
 
@@ -11,6 +12,7 @@ def ui_main():
         else:
             prt = ""
         print("0 : Temporary Storage (Current : " + str(len(storage.temp_store)) + prt +")")
+        print("9 : MIDI OUT")
         print("=====")
         print("1 : MIDI Reset")
         print("2 : System Effects")
@@ -20,6 +22,8 @@ def ui_main():
         ipt1 = int(input("> "))
         if ipt1 == 0:
             storage.store_menu()
+        elif ipt1 == 9:
+            ui_mido.ui_mido()
         elif ipt1 == 1:
             res = ui_syx.reset()
             print(res[1])
