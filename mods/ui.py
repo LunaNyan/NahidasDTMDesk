@@ -2,6 +2,7 @@ from mods import ui_syx
 from mods import ui_efx
 from mods import ui_etc
 from mods import storage
+from mods import common
 
 def ui_main():
     try:
@@ -20,7 +21,10 @@ def ui_main():
         if ipt1 == 0:
             storage.store_menu()
         elif ipt1 == 1:
-            storage.store(ui_syx.reset())
+            res = ui_syx.reset()
+            print(res[1])
+            print("    " + common.tostr(res[0]))
+            storage.store(res)
         elif ipt1 == 2:
             print("System Effects")
             print("1 : Reverb")
@@ -29,13 +33,18 @@ def ui_main():
             print("4 : System EQ")
             ipt2 = int(input(">> "))
             if ipt2 == 1:
-                storage.store(ui_syx.reverb())
+                res = ui_syx.reverb()
             elif ipt2 == 2:
-                storage.store(ui_syx.chorus())
+                res = ui_syx.chorus()
             elif ipt2 == 3:
-                storage.store(ui_syx.delay())
+                res = ui_syx.delay()
             elif ipt2 == 4:
-                storage.store(ui_syx.syseq())
+                res = ui_syx.syseq()
+            else:
+                raise ValueError("abort")
+            print(res[1])
+            print("    " + common.tostr(res[0]))
+            storage.store(res)
         elif ipt1 == 3:
             print("Channel Settings")
             print("1 : Rhythm Map")
@@ -43,15 +52,26 @@ def ui_main():
             print("3 : Send to EQ")
             ipt2 = int(input(">> "))
             if ipt2 == 1:
-                storage.store(ui_syx.rhythm())
+                res = ui_syx.rhythm()
             elif ipt2 == 2:
-                storage.store(ui_syx.outport())
+                res = ui_syx.outport()
             elif ipt2 == 3:
-                storage.store(ui_syx.sendeq())
+                res = ui_syx.sendeq()
+            else:
+                raise ValueError("abort")
+            print(res[1])
+            print("    " + common.tostr(res[0]))
+            storage.store(res)
         elif ipt1 == 4:
-            storage.store(ui_efx.ui_efx())
+            res = ui_efx.ui_efx()
+            print(res[1])
+            print("    " + common.tostr(res[0]))
+            storage.store(res)
         elif ipt1 == 5:
-            storage.store(ui_etc.ui_etc())
+            res = ui_etc.ui_etc()
+            print(res[1])
+            print("    " + common.tostr(res[0]))
+            storage.store(res)
     except Exception as e:
         print(e)
     print("")

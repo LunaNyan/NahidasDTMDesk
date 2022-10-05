@@ -22,7 +22,10 @@ def store_menu():
                 print("    " + common.tostr(i[0]))
                 cnt += 1
     elif ipt == "2":
-        if len(temp_store) == 0:
+        if protected:
+            print("Storage is protected")
+            print("Unprotect storage to begin task")
+        elif len(temp_store) == 0:
             print("No Items in Temporary Storage")
         else:
             try:
@@ -42,7 +45,11 @@ def store_menu():
             print("Delete ALL Items in Temporary Storage")
             ipt2 = input("Are you sure? (y / n) : ")
             if ipt2 == "y" or ipt2 == "Y":
-                temp_store = []
+                if protected:
+                    print("Storage is protected")
+                    print("Unprotect storage to begin task")
+                else:
+                    temp_store = []
             else:
                 print("exit")
                 return
