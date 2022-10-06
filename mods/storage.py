@@ -53,7 +53,12 @@ def store_menu():
                 print("# not found")
                 return
             else:
-                del(temp_store[ipt2])
+                print("Item to be deleted")
+                print("#" + str(ipt2) + " : " + temp_store[ipt2][1])
+                print("    " + common.tostr(temp_store[ipt2][0]))
+                ipt3 = input("Are you sure? (y / n) : ")
+                if ipt3 == "y" or ipt3 == "Y":
+                    del(temp_store[ipt2])
     elif ipt == "3":
         if len(temp_store) == 0:
             print("No Items in Memory")
