@@ -83,3 +83,5 @@ def ui_mido():
             msgs.append(mido.Message('control_change', channel=iptc - 1, control=32, value=iptl))
             for m in msgs:
                 mido_port_actual.send(m)
+    else:
+        raise ValueError("abort")

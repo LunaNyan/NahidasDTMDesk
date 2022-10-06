@@ -60,15 +60,15 @@ def ui_efx():
         sfx_menu = ["Send Level to Reverb", "Send Level to Chorus", "Send Level to Delay", "Control Source 1",
                     "Control Depth 1", "Control Source 2", "Control Depth 2", "Send EQ Switch"]
         sfx_range = ["0 ~ 127", "0 ~ 127", "0 ~ 127", "Off, CC1-95, CAf, Bend", "0 ~ 64 ~ 127",
-                     "Off, CC1-95, CAf, Bend", "0 ~ 64 ~ 127", "OFF / ON"]
+                    "Off, CC1-95, CAf, Bend", "0 ~ 64 ~ 127", "OFF / ON"]
         sfx_address = [0x17, 0x18, 0x19, 0x1B, 0x1C, 0x1D, 0x1E, 0x1F]
-        cnt = 0
+        cnt = 1
         for i in sfx_menu:
             print(str(cnt) + " : " + i)
             cnt += 1
         ipt2 = int(input("EFX Global Param : "))
-        ipt3 = int(input("EFX " + sfx_menu[ipt2] + " : "))
-        resx = common.gs_syx([0x40, 0x03, sfx_address[ipt2], ipt3])
+        ipt3 = int(input("EFX " + sfx_menu[ipt2-1] + " : "))
+        resx = common.gs_syx([0x40, 0x03, sfx_address[ipt2-1], ipt3])
         cmnt = "Set EFX " + sfx_menu[ipt2] + " to " + str(ipt3)
     elif ipt1 == 4:
         cp = common.get_port_and_channel()
@@ -88,5 +88,5 @@ def ui_efx():
             raise
         resx = common.gs_syx([port, channel + 0x30, 0x22, ipt_mode])
     else:
-        raise
+        raise ValueError("abort")
     return resx, cmnt

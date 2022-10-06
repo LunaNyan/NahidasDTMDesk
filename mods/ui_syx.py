@@ -227,7 +227,7 @@ def delay():
                 "Level Right", "Level", "Feedback", "Send Level to Reverb"]
     menu_address = [0x50, 0x51, 0x52, 0x53, 0x54, 0x55, 0x56, 0x57, 0x58, 0x59, 0x5A]
     macro_lst = ["Delay 1", "Delay 2", "Delay 3", "Delay 4", "Pan Delay 1", "Pan Delay 2", "Pan Delay 3", "Pan Delay 4",
-                 "Delay to Reverb", "Pan Repeat"]
+                "Delay to Reverb", "Pan Repeat"]
     print("will be implemented later")
     cnt = 0
     for i in menu_lst:

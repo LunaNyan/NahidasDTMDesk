@@ -1,0 +1,3257 @@
+LSB,MSB,PC,Name
+001,000,001,Piano 1
+001,000,002,Piano 2
+001,000,003,Piano 3
+001,000,004,Honky-tonk
+001,000,005,E.Piano 1
+001,000,006,E.Piano 2
+001,000,007,Harpsichord
+001,000,008,Clav.
+001,000,009,Celesta
+001,000,010,Glockenspl
+001,000,011,Music Box
+001,000,012,Vibraphone
+001,000,013,Marimba
+001,000,014,Xylophone
+001,000,015,Tubularbell
+001,000,016,Santur
+001,000,017,Organ 1
+001,000,018,Organ 2
+001,000,019,Organ 3
+001,000,020,Church Org1
+001,000,021,Reed Organ
+001,000,022,Accordion F
+001,000,023,Harmonica
+001,000,024,Bandoneon
+001,000,025,Nylon Gt.
+001,000,026,Steel Gt.
+001,000,027,Jazz Gt.
+001,000,028,Clean Gt.
+001,000,029,Muted Gt.
+001,000,030,OverdriveGt
+001,000,031,Dist.Gt.
+001,000,032,Gt.Harmonix
+001,000,033,Acoustic Bs
+001,000,034,Fingered Bs
+001,000,035,Picked Bass
+001,000,036,Fretless Bs
+001,000,037,Slap Bass 1
+001,000,038,Slap Bass 2
+001,000,039,Syn.Bass 1
+001,000,040,Syn.Bass 2
+001,000,041,Violin
+001,000,042,Viola
+001,000,043,Cello
+001,000,044,Contrabass
+001,000,045,Tremolo Str
+001,000,046,Pizzicato
+001,000,047,Harp
+001,000,048,Timpani
+001,000,049,Strings
+001,000,050,SlowStrings
+001,000,051,SynStrings1
+001,000,052,SynStrings2
+001,000,053,Choir Aahs
+001,000,054,Voice Oohs
+001,000,055,SynVox
+001,000,056,Orchest.Hit
+001,000,057,Trumpet
+001,000,058,Trombone
+001,000,059,Tuba
+001,000,060,MuteTrumpet
+001,000,061,French Horn
+001,000,062,Brass 1
+001,000,063,Syn.Brass 1
+001,000,064,Syn.Brass 2
+001,000,065,Soprano Sax
+001,000,066,Alto Sax
+001,000,067,Tenor Sax
+001,000,068,BaritoneSax
+001,000,069,Oboe
+001,000,070,EnglishHorn
+001,000,071,Bassoon
+001,000,072,Clarinet
+001,000,073,Piccolo
+001,000,074,Flute
+001,000,075,Recorder
+001,000,076,Pan Flute
+001,000,077,Bottle Blow
+001,000,078,Shakuhachi
+001,000,079,Whistle
+001,000,080,Ocarina
+001,000,081,Square Wave
+001,000,082,Saw Wave
+001,000,083,SynCalliope
+001,000,084,ChifferLead
+001,000,085,Charang
+001,000,086,Solo Vox
+001,000,087,5th Saw
+001,000,088,Bass & Lead
+001,000,089,Fantasia
+001,000,090,Warm Pad
+001,000,091,Polysynth
+001,000,092,Space Voice
+001,000,093,Bowed Glass
+001,000,094,Metal Pad
+001,000,095,Halo Pad
+001,000,096,Sweep Pad
+001,000,097,Ice Rain
+001,000,098,Soundtrack
+001,000,099,Crystal
+001,000,100,Atmosphere
+001,000,101,Brightness
+001,000,102,Goblin
+001,000,103,Echo Drops
+001,000,104,Star Theme
+001,000,105,Sitar
+001,000,106,Banjo
+001,000,107,Shamisen
+001,000,108,Koto
+001,000,109,Kalimba
+001,000,110,Bagpipe
+001,000,111,Fiddle
+001,000,112,Shanai
+001,000,113,Tinkle Bell
+001,000,114,Agogo
+001,000,115,Steel Drums
+001,000,116,Woodblock
+001,000,117,Taiko
+001,000,118,Melo. Tom 1
+001,000,119,Synth Drum
+001,000,120,Reverse Cym
+001,000,121,Gt.FretNoiz
+001,000,122,BreathNoise
+001,000,123,Seashore
+001,000,124,Bird
+001,000,125,Telephone 1
+001,000,126,Helicopter
+001,000,127,Applause
+001,000,128,Gun Shot
+001,001,039,Syn.Bass101
+001,001,058,Trombone 2
+001,001,061,Fr.Horn 2
+001,001,081,Square
+001,001,082,Saw
+001,001,099,Syn Mallet
+001,001,103,Echo Bell
+001,001,105,Sitar 2
+001,001,121,Gt.CutNoise
+001,001,122,Fl.KeyClick
+001,001,123,Rain
+001,001,124,Dog
+001,001,125,Telephone 2
+001,001,126,Car-Engine
+001,001,127,Laughing
+001,001,128,Machine Gun
+001,002,103,Echo Pan
+001,002,121,String Slap
+001,002,123,Thunder
+001,002,124,HorseGallop
+001,002,125,Creaking
+001,002,126,Car-Stop
+001,002,127,Screaming
+001,002,128,Lasergun
+001,003,123,Wind
+001,003,124,Bird 2
+001,003,125,Door
+001,003,126,Car-Pass
+001,003,127,Punch
+001,003,128,Explosion
+001,004,123,Stream
+001,004,125,Scratch
+001,004,126,Car-Crash
+001,004,127,Heart Beat
+001,005,123,Bubble
+001,005,125,Wind Chimes
+001,005,126,Siren
+001,005,127,Footsteps
+001,006,126,Train
+001,007,126,Jetplane
+001,008,001,Piano 1w
+001,008,002,Piano 2w
+001,008,003,Piano 3w
+001,008,004,HonkyTonk w
+001,008,005,Detuned EP1
+001,008,006,Detuned EP2
+001,008,007,Coupled Hps
+001,008,012,Vib.w
+001,008,013,Marimba w
+001,008,015,Church Bell
+001,008,017,Detuned Or1
+001,008,018,Detuned Or2
+001,008,020,Church Org2
+001,008,022,Accordion I
+001,008,025,Ukulele
+001,008,026,12-str.Gt
+001,008,027,Hawaiian Gt
+001,008,028,Chorus Gt.
+001,008,029,Funk Gt.
+001,008,031,Feedback Gt
+001,008,032,Gt.Feedback
+001,008,039,Syn.Bass 3
+001,008,040,Syn.Bass 4
+001,008,041,Slow Violin
+001,008,049,Orchestra
+001,008,051,SynStrings3
+001,008,062,Brass 2
+001,008,063,Syn.Brass 3
+001,008,064,Syn.Brass 4
+001,008,081,Sine Wave
+001,008,082,Doctor Solo
+001,008,108,Taisho Koto
+001,008,116,Castanets
+001,008,117,Concert BD
+001,008,118,Melo. Tom 2
+001,008,119,808 Tom
+001,008,126,Starship
+001,009,015,Carillon
+001,009,119,Elec Perc
+001,009,126,Burst Noise
+001,016,001,Piano 1d
+001,016,005,E.Piano 1v
+001,016,006,E.Piano 2v
+001,016,007,Harpsi.w
+001,016,017,60's Organ1
+001,016,020,Church Org3
+001,016,025,Nylon Gt.o
+001,016,026,Mandolin
+001,016,029,Funk Gt.2
+001,016,040,Rubber Bass
+001,016,063,Analog Brs1
+001,016,064,Analog Brs2
+001,024,005,60s E.Piano
+001,024,007,Harpsi.o
+001,032,017,Organ 4
+001,032,018,Organ 5
+001,032,025,Nylon Gt.2
+001,032,053,Choir Aahs2
+001,126,001,Piano 2
+001,126,002,Piano 2
+001,126,003,Piano 2
+001,126,004,Honky-tonk
+001,126,005,Piano 1
+001,126,006,Piano 2
+001,126,007,Piano 2
+001,126,008,E.Piano 1
+001,126,009,Detuned EP1
+001,126,010,E.Piano 2
+001,126,011,Steel Gt.
+001,126,012,Steel Gt.
+001,126,013,12-str.Gt
+001,126,014,Funk Gt.
+001,126,015,Muted Gt.
+001,126,016,Slap Bass 1
+001,126,017,Slap Bass 1
+001,126,018,Slap Bass 1
+001,126,019,Slap Bass 1
+001,126,020,Slap Bass 2
+001,126,021,Slap Bass 2
+001,126,022,Slap Bass 2
+001,126,023,Slap Bass 2
+001,126,024,Fingered Bs
+001,126,025,Fingered Bs
+001,126,026,Picked Bass
+001,126,027,Picked Bass
+001,126,028,Fretless Bs
+001,126,029,Acoustic Bs
+001,126,030,Choir Aahs
+001,126,031,Choir Aahs
+001,126,032,Choir Aahs
+001,126,033,Choir Aahs
+001,126,034,SlowStrings
+001,126,035,Strings
+001,126,036,SynStrings3
+001,126,037,SynStrings3
+001,126,038,Organ 1
+001,126,039,Organ 1
+001,126,040,Organ 1
+001,126,041,Organ 2
+001,126,042,Organ 1
+001,126,043,Organ 1
+001,126,044,Organ 2
+001,126,045,Organ 2
+001,126,046,Organ 2
+001,126,047,Trumpet
+001,126,048,Trumpet
+001,126,049,Trombone
+001,126,050,Trombone
+001,126,051,Trombone
+001,126,052,Trombone
+001,126,053,Trombone
+001,126,054,Trombone
+001,126,055,Alto Sax
+001,126,056,Tenor Sax
+001,126,057,BaritoneSax
+001,126,058,Alto Sax
+001,126,059,Brass 1
+001,126,060,Brass 1
+001,126,061,Brass 2
+001,126,062,Brass 2
+001,126,063,Brass 1
+001,126,064,Orchest.Hit
+001,127,001,Acou Piano1
+001,127,002,Acou Piano2
+001,127,003,Acou Piano3
+001,127,004,Elec Piano1
+001,127,005,Elec Piano2
+001,127,006,Elec Piano3
+001,127,007,Elec Piano4
+001,127,008,Honkytonk
+001,127,009,Elec Org 1
+001,127,010,Elec Org 2
+001,127,011,Elec Org 3
+001,127,012,Elec Org 4
+001,127,013,Pipe Org 1
+001,127,014,Pipe Org 2
+001,127,015,Pipe Org 3
+001,127,016,Accordion
+001,127,017,Harpsi 1
+001,127,018,Harpsi 2
+001,127,019,Harpsi 3
+001,127,020,Clavi 1
+001,127,021,Clavi 2
+001,127,022,Clavi 3
+001,127,023,Celesta 1
+001,127,024,Celesta 2
+001,127,025,Syn Brass 1
+001,127,026,Syn Brass 2
+001,127,027,Syn Brass 3
+001,127,028,Syn Brass 4
+001,127,029,Syn Bass 1
+001,127,030,Syn Bass 2
+001,127,031,Syn Bass 3
+001,127,032,Syn Bass 4
+001,127,033,Fantasy
+001,127,034,Harmo Pan
+001,127,035,Chorale
+001,127,036,Glasses
+001,127,037,Soundtrack
+001,127,038,Atmosphere
+001,127,039,Warm Bell
+001,127,040,Funny Vox
+001,127,041,Echo Bell
+001,127,042,Ice Rain
+001,127,043,Oboe 2001
+001,127,044,Echo Pan
+001,127,045,Doctor Solo
+001,127,046,School Daze
+001,127,047,Bellsinger
+001,127,048,Square Wave
+001,127,049,Str Sect 1
+001,127,050,Str Sect 2
+001,127,051,Str Sect 3
+001,127,052,Pizzicato
+001,127,053,Violin 1
+001,127,054,Violin 2
+001,127,055,Cello 1
+001,127,056,Cello 2
+001,127,057,Contrabass
+001,127,058,Harp 1
+001,127,059,Harp 2
+001,127,060,Guitar 1
+001,127,061,Guitar 2
+001,127,062,Elec Gtr 1
+001,127,063,Elec Gtr 2
+001,127,064,Sitar
+001,127,065,Acou Bass 1
+001,127,066,Acou Bass 2
+001,127,067,Elec Bass 1
+001,127,068,Elec Bass 2
+001,127,069,Slap Bass 1
+001,127,070,Slap Bass 2
+001,127,071,Fretless 1
+001,127,072,Fretless 2
+001,127,073,Flute 1
+001,127,074,Flute 2
+001,127,075,Piccolo 1
+001,127,076,Piccolo 2
+001,127,077,Recorder
+001,127,078,Pan Pipes
+001,127,079,Sax 1
+001,127,080,Sax 2
+001,127,081,Sax 3
+001,127,082,Sax 4
+001,127,083,Clarinet 1
+001,127,084,Clarinet 2
+001,127,085,Oboe
+001,127,086,Engl Horn
+001,127,087,Bassoon
+001,127,088,Harmonica
+001,127,089,Trumpet 1
+001,127,090,Trumpet 2
+001,127,091,Trombone 1
+001,127,092,Trombone 2
+001,127,093,Fr Horn 1
+001,127,094,Fr Horn 2
+001,127,095,Tuba
+001,127,096,Brs Sect 1
+001,127,097,Brs Sect 2
+001,127,098,Vibe 1
+001,127,099,Vibe 2
+001,127,100,Syn Mallet
+001,127,101,Windbell
+001,127,102,Glock
+001,127,103,Tube Bell
+001,127,104,Xylophone
+001,127,105,Marimba
+001,127,106,Koto
+001,127,107,Sho
+001,127,108,Shakuhachi
+001,127,109,Whistle 1
+001,127,110,Whistle 2
+001,127,111,Bottleblow
+001,127,112,Breathpipe
+001,127,113,Timpani
+001,127,114,Melodic Tom
+001,127,115,Deep Snare
+001,127,116,Elec Perc 1
+001,127,117,Elec Perc 2
+001,127,118,Taiko
+001,127,119,Taiko Rim
+001,127,120,Cymbal
+001,127,121,Castanets
+001,127,122,Triangle
+001,127,123,Orche Hit
+001,127,124,Telephone
+001,127,125,Bird Tweet
+001,127,126,OneNote Jam
+001,127,127,Water Bell
+001,127,128,Jungle Tune
+002,000,001,Piano 1
+002,000,002,Piano 2
+002,000,003,Piano 3
+002,000,004,Honky-tonk
+002,000,005,E.Piano 1
+002,000,006,E.Piano 2
+002,000,007,Harpsichord
+002,000,008,Clav.
+002,000,009,Celesta
+002,000,010,Glocknspiel
+002,000,011,Music Box
+002,000,012,Vibraphone
+002,000,013,Marimba
+002,000,014,Xylophone
+002,000,015,Tubularbell
+002,000,016,Santur
+002,000,017,Organ 1
+002,000,018,Organ 2
+002,000,019,Organ 3
+002,000,020,ChurchOrg.1
+002,000,021,Reed Organ
+002,000,022,AccordionFr
+002,000,023,Harmonica
+002,000,024,Bandoneon
+002,000,025,Nylonstr.Gt
+002,000,026,Steelstr.Gt
+002,000,027,Jazz Gt.
+002,000,028,Clean Gt.
+002,000,029,Muted Gt.
+002,000,030,OverdriveGt
+002,000,031,DistortionGt
+002,000,032,Gt.Harmonix
+002,000,033,AcousticBs.
+002,000,034,FingeredBs.
+002,000,035,Picked Bass
+002,000,036,FretlessBs.
+002,000,037,Slap Bass 1
+002,000,038,Slap Bass 2
+002,000,039,SynthBass 1
+002,000,040,SynthBass 2
+002,000,041,Violin
+002,000,042,Viola
+002,000,043,Cello
+002,000,044,Contrabass
+002,000,045,Tremolo Str
+002,000,046,Pizz. Str.
+002,000,047,Harp
+002,000,048,Timpani
+002,000,049,Strings
+002,000,050,SlowStrings
+002,000,051,SynStrings1
+002,000,052,SynStrings2
+002,000,053,Choir Aahs
+002,000,054,Voice Oohs
+002,000,055,SynVox
+002,000,056,Orch. Hit
+002,000,057,Trumpet
+002,000,058,Trombone
+002,000,059,Tuba
+002,000,060,Muted Tp.
+002,000,061,FrenchHorns
+002,000,062,Brass 1
+002,000,063,SynthBrass1
+002,000,064,Syn.Brass 2
+002,000,065,Soprano Sax
+002,000,066,Alto Sax
+002,000,067,Tenor Sax
+002,000,068,BaritoneSax
+002,000,069,Oboe
+002,000,070,EnglishHorn
+002,000,071,Bassoon
+002,000,072,Clarinet
+002,000,073,Piccolo
+002,000,074,Flute
+002,000,075,Recorder
+002,000,076,Pan Flute
+002,000,077,Bottle Blow
+002,000,078,Shakuhachi
+002,000,079,Whistle
+002,000,080,Ocarina
+002,000,081,Square Wave
+002,000,082,Saw Wave
+002,000,083,SynCalliope
+002,000,084,ChifferLead
+002,000,085,Charang
+002,000,086,Solo Vox
+002,000,087,5th Saw
+002,000,088,Bass & Lead
+002,000,089,Fantasia
+002,000,090,Warm Pad
+002,000,091,Polysynth
+002,000,092,Space Voice
+002,000,093,Bowed Glass
+002,000,094,Metal Pad
+002,000,095,Halo Pad
+002,000,096,Sweep Pad
+002,000,097,Ice Rain
+002,000,098,Soundtrack
+002,000,099,Crystal
+002,000,100,Atmosphere
+002,000,101,Brightness
+002,000,102,Goblin
+002,000,103,Echo Drops
+002,000,104,Star Theme
+002,000,105,Sitar
+002,000,106,Banjo
+002,000,107,Shamisen
+002,000,108,Koto
+002,000,109,Kalimba
+002,000,110,Bagpipe
+002,000,111,Fiddle
+002,000,112,Shanai
+002,000,113,Tinkle Bell
+002,000,114,Agogo
+002,000,115,Steel Drums
+002,000,116,Woodblock
+002,000,117,Taiko
+002,000,118,Melo. Tom 1
+002,000,119,Synth Drum
+002,000,120,Reverse Cym
+002,000,121,Gt.FretNoiz
+002,000,122,BreathNoise
+002,000,123,Seashore
+002,000,124,Bird
+002,000,125,Telephone 1
+002,000,126,Helicopter
+002,000,127,Applause
+002,000,128,Gun Shot
+002,001,003,EG+Rhodes 1
+002,001,012,Hard Vibe
+002,001,016,Santur 2
+002,001,017,Organ 101
+002,001,018,Organ 201
+002,001,023,Harmonica 2
+002,001,027,Mellow Gt.
+002,001,029,MutedDis.Gt
+002,001,031,Dist. Gt2
+002,001,034,FingeredBs2
+002,001,036,FretlessBs2
+002,001,039,Syn.Bass101
+002,001,040,Syn.Bass201
+002,001,049,Strings 2
+002,001,050,Slow Str. 2
+002,001,051,OB Strings
+002,001,057,Trumpet 2
+002,001,058,Trombone 2
+002,001,059,Tuba 2
+002,001,061,Fr.Horn 2
+002,001,063,Poly Brass
+002,001,064,Soft Brass
+002,001,081,Square
+002,001,082,Saw
+002,001,083,Vent Synth
+002,001,087,Big Fives
+002,001,088,Big & Raw
+002,001,089,Fantasia 2
+002,001,090,Thick Pad
+002,001,091,80'sPolySyn
+002,001,092,Heaven II
+002,001,094,Tine Pad
+002,001,096,Polar Pad
+002,001,097,Harmo Rain
+002,001,098,Ancestral
+002,001,099,Syn Mallet
+002,001,100,Warm Atmos
+002,001,102,Goblinson
+002,001,103,Echo Bell
+002,001,104,StarTheme 2
+002,001,105,Sitar 2
+002,001,106,Muted Banjo
+002,001,107,Tsugaru
+002,001,112,Shanai 2
+002,001,118,Real Tom
+002,001,120,ReverseCym2
+002,001,121,Gt.CutNoise
+002,001,122,Fl.KeyClick
+002,001,123,Rain
+002,001,124,Dog
+002,001,125,Telephone 2
+002,001,126,Car-Engine
+002,001,127,Laughing
+002,001,128,Machine Gun
+002,002,003,EG+Rhodes 2
+002,002,031,DazedGuitar
+002,002,034,Jazz Bass
+002,002,036,FretlessBs3
+002,002,040,ModularBass
+002,002,081,Hollow Mini
+002,002,082,Pulse Saw
+002,002,083,PurePanLead
+002,002,088,Fat & Perky
+002,002,090,Horn Pad
+002,002,094,Panner Pad
+002,002,097,AfricanWood
+002,002,098,Prologue
+002,002,099,SoftCrystal
+002,002,100,Nylon Harp
+002,002,102,50's Sci-Fi
+002,002,103,Echo Pan
+002,002,105,DetuneSitar
+002,002,121,String Slap
+002,002,123,Thunder
+002,002,124,HorseGallop
+002,002,125,Creaking
+002,002,126,Car-Stop
+002,002,127,Screaming
+002,002,128,Lasergun
+002,003,036,FretlessBs4
+002,003,040,Seq Bass
+002,003,081,Mellow FM
+002,003,082,Feline GR
+002,003,090,RotaryStrng
+002,003,099,Round Glock
+002,003,100,Harpvox
+002,003,103,Echo Pan 2
+002,003,121,Gt.CutNz. 2
+002,003,123,Wind
+002,003,124,Bird 2
+002,003,125,Door
+002,003,126,Car-Pass
+002,003,127,Punch
+002,003,128,Explosion
+002,004,036,SynFretless
+002,004,081,CC Solo
+002,004,082,Big Lead
+002,004,090,Soft Pad
+002,004,099,Loud Glock
+002,004,100,HollowRels.
+002,004,103,Big Panner
+002,004,121,Dist.CutNz.
+002,004,123,Stream
+002,004,124,Kitty
+002,004,125,Scratch
+002,004,126,Car-Crash
+002,004,127,Heart Beat
+002,005,036,Mr.Smooth
+002,005,081,Shmoog
+002,005,082,Velo Lead
+002,005,099,GlocknChime
+002,005,100,NylonRhodes
+002,005,103,Reso Panner
+002,005,121,Bass Slide
+002,005,123,Bubble
+002,005,124,Growl
+002,005,125,Wind Chimes
+002,005,126,Siren
+002,005,127,Footsteps
+002,006,081,LM Square
+002,006,082,GR-300
+002,006,099,Clear Bells
+002,006,100,Ambient Pad
+002,006,103,Water Piano
+002,006,121,Pick Scrape
+002,006,126,Train
+002,006,127,Applause 2
+002,007,082,LA Saw
+002,007,099,X'mas Bell
+002,007,125,Scratch 2
+002,007,126,Jetplane
+002,008,001,Piano 1w
+002,008,002,Piano 2w
+002,008,003,Piano 3w
+002,008,004,Old Upright
+002,008,005,St.Soft EP
+002,008,006,Detuned EP2
+002,008,007,Coupled Hps
+002,008,012,Vib.w
+002,008,013,Marimba w
+002,008,015,Church Bell
+002,008,016,Cimbalom
+002,008,017,DetunedOr.1
+002,008,018,DetunedOr.2
+002,008,019,Rotary Org.
+002,008,020,ChurchOrg.2
+002,008,022,AccordionIt
+002,008,025,Ukulele
+002,008,026,12-str.Gt
+002,008,027,Pedal Steel
+002,008,028,Chorus Gt.
+002,008,029,Funk Pop
+002,008,031,FeedbackGt.
+002,008,032,Gt.Feedback
+002,008,035,MutePickBs.
+002,008,037,Reso Slap
+002,008,039,Acid Bass
+002,008,040,Beef FMBass
+002,008,041,Slow Violin
+002,008,045,SlowTremolo
+002,008,049,Orchestra
+002,008,050,Legato Str.
+002,008,051,SynStrings3
+002,008,053,St.Choir
+002,008,055,Syn.Voice
+002,008,056,Impact Hit
+002,008,057,Flugel Horn
+002,008,061,Fr.HornSolo
+002,008,062,Brass 2
+002,008,063,Syn.Brass 3
+002,008,064,Syn.Brass 4
+002,008,066,Hyper Alto
+002,008,067,BreathyTnr.
+002,008,072,Bs Clarinet
+002,008,076,Kawala
+002,008,081,Sine Wave
+002,008,082,Doctor Solo
+002,008,085,Dist.Lead
+002,008,096,Converge
+002,008,097,Clavi Pad
+002,008,098,Rave
+002,008,099,Vibra Bells
+002,008,105,Tambra
+002,008,106,Rabab
+002,008,108,Taisho Koto
+002,008,112,Pungi
+002,008,113,Bonang
+002,008,114,Atarigane
+002,008,116,Castanets
+002,008,117,Concert BD
+002,008,118,Melo. Tom 2
+002,008,119,808 Tom
+002,008,120,Rev.Snare 1
+002,008,126,Starship
+002,009,015,Carillon
+002,009,017,Organ 109
+002,009,026,Nylon+Steel
+002,009,031,FeedbackGt2
+002,009,039,TB303 Bass
+002,009,040,X Wire Bass
+002,009,045,SuspenseStr
+002,009,049,Orchestra 2
+002,009,050,WarmStrings
+002,009,053,Mello Choir
+002,009,056,Philly Hit
+002,009,063,Quack Brass
+002,009,096,Shwimmer
+002,009,099,Digi Bells
+002,009,113,Gender
+002,009,118,Rock Tom
+002,009,119,Elec Perc
+002,009,120,Rev.Snare 2
+002,009,126,Burst Noise
+002,010,039,Tekno Bass
+002,010,049,TremoloOrch
+002,010,050,St.SlowStr.
+002,010,056,Double Hit
+002,010,096,CelestialPd
+002,010,113,GamelanGong
+002,011,049,Choir Str.
+002,011,113,St.Gamelan
+002,016,001,Piano 1d
+002,016,005,FM+SA EP
+002,016,006,St.FM EP
+002,016,007,Harpsi.w
+002,016,013,Barafon
+002,016,017,60'sOrgan 1
+002,016,019,RotaryOrg.S
+002,016,020,ChurchOrg.3
+002,016,025,Nylon Gt.o
+002,016,026,Mandolin
+002,016,029,Funk Gt.2
+002,016,031,PowerGuitar
+002,016,032,Ac.Gt.Harm.
+002,016,039,Reso SHBass
+002,016,040,Rubber Bass
+002,016,049,St.Strings
+002,016,056,Lo Fi Rave
+002,016,061,Horn Orch
+002,016,062,Brass Fall
+002,016,063,OctaveBrass
+002,016,064,VeloBrass 1
+002,016,082,Waspy Synth
+002,016,099,ChoralBells
+002,016,105,Tamboura
+002,016,106,Gopichant
+002,016,108,Kanoon
+002,016,112,Hichiriki
+002,016,113,RAMA Cymbal
+002,016,120,Rev.Kick 1
+002,017,013,Barafon 2
+002,017,017,60'sOrgan 2
+002,017,031,Power Gt.2
+002,017,040,SH101Bass 1
+002,017,064,VeloBrass 2
+002,017,099,Air Bells
+002,017,120,Rev.ConBD
+002,018,017,60'sOrgan 3
+002,018,031,5th Dist.
+002,018,040,SH101Bass 2
+002,018,099,Bell Harp
+002,019,040,Smooth Bass
+002,019,099,Gamelimba
+002,024,005,60'sE.Piano
+002,024,006,Hard FM EP
+002,024,007,Harpsi.o
+002,024,013,Log drum
+002,024,017,CheeseOrgan
+002,024,019,RotaryOrg.F
+002,024,020,Organ Flute
+002,024,025,VeloHarmnix
+002,024,031,Rock Rhythm
+002,024,049,VeloStrings
+002,024,057,Bright Tp.
+002,024,106,Oud
+002,024,120,Rev.Tom 1
+002,025,005,Hard Rhodes
+002,025,031,RockRhythm2
+002,025,057,Warm Tp.
+002,025,120,Rev.Tom 2
+002,026,005,MellwRhodes
+002,032,017,Organ 4
+002,032,018,Organ 5
+002,032,020,Trem.Flute
+002,032,025,Nylon Gt.2
+002,032,026,Steel Gt.2
+002,032,053,ChoirAahs 2
+002,033,017,Even Bar
+002,040,017,Organ Bass
+002,040,025,Lequint Gt.
+002,126,001,Piano 2
+002,126,002,Piano 2
+002,126,003,Piano 2
+002,126,004,Honky-tonk
+002,126,005,Piano 1
+002,126,006,Piano 2
+002,126,007,Piano 2
+002,126,008,E.Piano 1
+002,126,009,Detuned EP1
+002,126,010,E.Piano 2
+002,126,011,Steel Gt.
+002,126,012,Steel Gt.
+002,126,013,12-str.Gt
+002,126,014,Funk Gt.
+002,126,015,Muted Gt.
+002,126,016,Slap Bass 1
+002,126,017,Slap Bass 1
+002,126,018,Slap Bass 1
+002,126,019,Slap Bass 1
+002,126,020,Slap Bass 2
+002,126,021,Slap Bass 2
+002,126,022,Slap Bass 2
+002,126,023,Slap Bass 2
+002,126,024,Fingered Bs
+002,126,025,Fingered Bs
+002,126,026,Picked Bass
+002,126,027,Picked Bass
+002,126,028,Fretless Bs
+002,126,029,Acoustic Bs
+002,126,030,Choir Aahs
+002,126,031,Choir Aahs
+002,126,032,Choir Aahs
+002,126,033,Choir Aahs
+002,126,034,SlowStrings
+002,126,035,Strings
+002,126,036,SynStrings3
+002,126,037,SynStrings3
+002,126,038,Organ 1
+002,126,039,Organ 1
+002,126,040,Organ 1
+002,126,041,Organ 2
+002,126,042,Organ 1
+002,126,043,Organ 1
+002,126,044,Organ 2
+002,126,045,Organ 2
+002,126,046,Organ 2
+002,126,047,Trumpet
+002,126,048,Trumpet
+002,126,049,Trombone
+002,126,050,Trombone
+002,126,051,Trombone
+002,126,052,Trombone
+002,126,053,Trombone
+002,126,054,Trombone
+002,126,055,Alto Sax
+002,126,056,Tenor Sax
+002,126,057,BaritoneSax
+002,126,058,Alto Sax
+002,126,059,Brass 1
+002,126,060,Brass 1
+002,126,061,Brass 2
+002,126,062,Brass 2
+002,126,063,Brass 1
+002,126,064,Orchest.Hit
+002,127,001,Acou Piano1
+002,127,002,Acou Piano2
+002,127,003,Acou Piano3
+002,127,004,Elec Piano1
+002,127,005,Elec Piano2
+002,127,006,Elec Piano3
+002,127,007,Elec Piano4
+002,127,008,Honkytonk
+002,127,009,Elec Org 1
+002,127,010,Elec Org 2
+002,127,011,Elec Org 3
+002,127,012,Elec Org 4
+002,127,013,Pipe Org 1
+002,127,014,Pipe Org 2
+002,127,015,Pipe Org 3
+002,127,016,Accordion
+002,127,017,Harpsi 1
+002,127,018,Harpsi 2
+002,127,019,Harpsi 3
+002,127,020,Clavi 1
+002,127,021,Clavi 2
+002,127,022,Clavi 3
+002,127,023,Celesta 1
+002,127,024,Celesta 2
+002,127,025,Syn Brass 1
+002,127,026,Syn Brass 2
+002,127,027,Syn Brass 3
+002,127,028,Syn Brass 4
+002,127,029,Syn Bass 1
+002,127,030,Syn Bass 2
+002,127,031,Syn Bass 3
+002,127,032,Syn Bass 4
+002,127,033,Fantasy
+002,127,034,Harmo Pan
+002,127,035,Chorale
+002,127,036,Glasses
+002,127,037,Soundtrack
+002,127,038,Atmosphere
+002,127,039,Warm Bell
+002,127,040,Funny Vox
+002,127,041,Echo Bell
+002,127,042,Ice Rain
+002,127,043,Oboe 2001
+002,127,044,Echo Pan
+002,127,045,Doctor Solo
+002,127,046,School Daze
+002,127,047,Bellsinger
+002,127,048,Square Wave
+002,127,049,Str Sect 1
+002,127,050,Str Sect 2
+002,127,051,Str Sect 3
+002,127,052,Pizzicato
+002,127,053,Violin 1
+002,127,054,Violin 2
+002,127,055,Cello 1
+002,127,056,Cello 2
+002,127,057,Contrabass
+002,127,058,Harp 1
+002,127,059,Harp 2
+002,127,060,Guitar 1
+002,127,061,Guitar 2
+002,127,062,Elec Gtr 1
+002,127,063,Elec Gtr 2
+002,127,064,Sitar
+002,127,065,Acou Bass 1
+002,127,066,Acou Bass 2
+002,127,067,Elec Bass 1
+002,127,068,Elec Bass 2
+002,127,069,Slap Bass 1
+002,127,070,Slap Bass 2
+002,127,071,Fretless 1
+002,127,072,Fretless 2
+002,127,073,Flute 1
+002,127,074,Flute 2
+002,127,075,Piccolo 1
+002,127,076,Piccolo 2
+002,127,077,Recorder
+002,127,078,Pan Pipes
+002,127,079,Sax 1
+002,127,080,Sax 2
+002,127,081,Sax 3
+002,127,082,Sax 4
+002,127,083,Clarinet 1
+002,127,084,Clarinet 2
+002,127,085,Oboe
+002,127,086,Engl Horn
+002,127,087,Bassoon
+002,127,088,Harmonica
+002,127,089,Trumpet 1
+002,127,090,Trumpet 2
+002,127,091,Trombone 1
+002,127,092,Trombone 2
+002,127,093,Fr Horn 1
+002,127,094,Fr Horn 2
+002,127,095,Tuba
+002,127,096,Brs Sect 1
+002,127,097,Brs Sect 2
+002,127,098,Vibe 1
+002,127,099,Vibe 2
+002,127,100,Syn Mallet
+002,127,101,Windbell
+002,127,102,Glock
+002,127,103,Tube Bell
+002,127,104,Xylophone
+002,127,105,Marimba
+002,127,106,Koto
+002,127,107,Sho
+002,127,108,Shakuhachi
+002,127,109,Whistle 1
+002,127,110,Whistle 2
+002,127,111,Bottleblow
+002,127,112,Breathpipe
+002,127,113,Timpani
+002,127,114,Melodic Tom
+002,127,115,Deep Snare
+002,127,116,Elec Perc 1
+002,127,117,Elec Perc 2
+002,127,118,Taiko
+002,127,119,Taiko Rim
+002,127,120,Cymbal
+002,127,121,Castanets
+002,127,122,Triangle
+002,127,123,Orche Hit
+002,127,124,Telephone
+002,127,125,Bird Tweet
+002,127,126,OneNote Jam
+002,127,127,Water Bell
+002,127,128,Jungle Tune
+003,000,001,Piano 1
+003,000,002,Piano 2
+003,000,003,Piano 3
+003,000,004,Honky-tonk
+003,000,005,E.Piano 1
+003,000,006,E.Piano 2
+003,000,007,Harpsichord
+003,000,008,Clav.
+003,000,009,Celesta
+003,000,010,Glockenspiel
+003,000,011,Music Box
+003,000,012,Vibraphone
+003,000,013,Marimba
+003,000,014,Xylophone
+003,000,015,Tubular-bell
+003,000,016,Santur
+003,000,017,Organ 1
+003,000,018,Organ 2
+003,000,019,Organ 3
+003,000,020,Church Org.1
+003,000,021,Reed Organ
+003,000,022,Accordion Fr
+003,000,023,Harmonica
+003,000,024,Bandoneon
+003,000,025,Nylon-str.Gt
+003,000,026,Steel-str.Gt
+003,000,027,Jazz Gt.
+003,000,028,Clean Gt.
+003,000,029,Muted Gt.
+003,000,030,Overdrive Gt
+003,000,031,DistortionGt
+003,000,032,Gt.Harmonics
+003,000,033,Acoustic Bs.
+003,000,034,Fingered Bs.
+003,000,035,Picked Bass
+003,000,036,Fretless Bs.
+003,000,037,Slap Bass 1
+003,000,038,Slap Bass 2
+003,000,039,Synth Bass 1
+003,000,040,Synth Bass 2
+003,000,041,Violin    :
+003,000,042,Viola     :
+003,000,043,Cello     :
+003,000,044,Contrabass
+003,000,045,Tremolo Str
+003,000,046,PizzicatoStr
+003,000,047,Harp
+003,000,048,Timpani
+003,000,049,Strings   :
+003,000,050,Slow Strings
+003,000,051,Syn.Strings1
+003,000,052,Syn.Strings2
+003,000,053,Choir Aahs
+003,000,054,Voice Oohs
+003,000,055,SynVox
+003,000,056,OrchestraHit
+003,000,057,Trumpet
+003,000,058,Trombone
+003,000,059,Tuba
+003,000,060,MutedTrumpet
+003,000,061,French Horns
+003,000,062,Brass 1
+003,000,063,Synth Brass1
+003,000,064,Synth Brass2
+003,000,065,Soprano Sax
+003,000,066,Alto Sax
+003,000,067,Tenor Sax
+003,000,068,Baritone Sax
+003,000,069,Oboe
+003,000,070,English Horn
+003,000,071,Bassoon
+003,000,072,Clarinet
+003,000,073,Piccolo
+003,000,074,Flute
+003,000,075,Recorder
+003,000,076,Pan Flute
+003,000,077,Bottle Blow
+003,000,078,Shakuhachi
+003,000,079,Whistle
+003,000,080,Ocarina
+003,000,081,Square Wave
+003,000,082,Saw Wave
+003,000,083,Syn.Calliope
+003,000,084,Chiffer Lead
+003,000,085,Charang
+003,000,086,Solo Vox
+003,000,087,5th Saw Wave
+003,000,088,Bass & Lead
+003,000,089,Fantasia
+003,000,090,Warm Pad
+003,000,091,Polysynth
+003,000,092,Space Voice
+003,000,093,Bowed Glass
+003,000,094,Metal Pad
+003,000,095,Halo Pad
+003,000,096,Sweep Pad
+003,000,097,Ice Rain
+003,000,098,Soundtrack
+003,000,099,Crystal
+003,000,100,Atmosphere
+003,000,101,Brightness
+003,000,102,Goblin
+003,000,103,Echo Drops
+003,000,104,Star Theme
+003,000,105,Sitar
+003,000,106,Banjo
+003,000,107,Shamisen
+003,000,108,Koto
+003,000,109,Kalimba
+003,000,110,Bagpipe
+003,000,111,Fiddle
+003,000,112,Shanai
+003,000,113,Tinkle Bell
+003,000,114,Agogo
+003,000,115,Steel Drums
+003,000,116,Woodblock
+003,000,117,Taiko
+003,000,118,Melo. Tom 1
+003,000,119,Synth Drum
+003,000,120,Reverse Cym.
+003,000,121,Gt.FretNoise
+003,000,122,Breath Noise
+003,000,123,Seashore
+003,000,124,Bird
+003,000,125,Telephone 1
+003,000,126,Helicopter
+003,000,127,Applause
+003,000,128,Gun Shot
+003,001,003,EG+Rhodes 1
+003,001,007,Harpsichord2
+003,001,009,Pop Celesta
+003,001,012,Pop Vibe.
+003,001,016,Santur 2
+003,001,017,Organ 101
+003,001,018,Jazz Organ
+003,001,023,Harmonica 2
+003,001,027,Mellow Gt.
+003,001,028,Clean Half
+003,001,029,Muted Dis.Gt
+003,001,030,Overdrive 2
+003,001,031,Dist. Gt2 :
+003,001,033,Rockabilly
+003,001,034,Fingered Bs2
+003,001,035,Picked Bass2
+003,001,036,Fretless Bs2
+003,001,037,Slap Pop
+003,001,039,SynthBass101
+003,001,040,SynthBass201
+003,001,041,Violin Atk:
+003,001,042,Viola Atk.:
+003,001,043,Cello Atk.:
+003,001,046,Vcs&Cbs Pizz
+003,001,049,Bright Str:
+003,001,050,SlowStrings2
+003,001,051,OB Strings
+003,001,052,Syn.Strings5
+003,001,057,Trumpet 2
+003,001,058,Trombone 2
+003,001,059,Tuba 2
+003,001,061,Fr.Horn 2
+003,001,062,Brass ff
+003,001,063,JUNO Brass
+003,001,064,Soft Brass
+003,001,067,Tenor Sax :
+003,001,068,Bari. Sax :
+003,001,073,Piccolo   :
+003,001,074,Flute 2   :
+003,001,078,Shakuhachi:
+003,001,079,Whistle 2
+003,001,081,MG Square
+003,001,082,OB2 Saw
+003,001,083,Vent Synth
+003,001,084,TB Lead
+003,001,087,Big Fives
+003,001,088,Big & Raw
+003,001,089,Fantasia 2
+003,001,090,Thick Matrix
+003,001,091,80's PolySyn
+003,001,092,Heaven II
+003,001,093,SoftBellPad
+003,001,094,Tine Pad
+003,001,095,Vox Pad
+003,001,096,Polar Pad
+003,001,097,Harmo Rain
+003,001,098,Ancestral
+003,001,099,Syn Mallet
+003,001,100,Warm Atmos
+003,001,101,Shining Star
+003,001,102,Goblinson
+003,001,103,Echo Bell
+003,001,104,Star Theme 2
+003,001,105,Sitar 2
+003,001,106,Muted Banjo
+003,001,107,Tsugaru
+003,001,108,Gu Zheng
+003,001,112,Shanai 2
+003,001,115,Island Mlt
+003,001,117,Small Taiko
+003,001,118,Real Tom
+003,001,120,Reverse Cym2
+003,001,121,Gt.Cut Noise
+003,001,122,Fl.Key Click
+003,001,123,Rain
+003,001,124,Dog
+003,001,125,Telephone 2
+003,001,126,Car-Engine
+003,001,127,Laughing
+003,001,128,Machine Gun
+003,002,003,EG+Rhodes 2
+003,002,018,E.Organ 16+2
+003,002,028,Open Hard 1
+003,002,029,TC Muted Gt.
+003,002,030,Overdrive 3
+003,002,031,Dazed Guitar
+003,002,034,Jazz Bass
+003,002,035,Picked Bass3
+003,002,036,Fretless Bs3
+003,002,039,CS Bass
+003,002,040,Modular Bass
+003,002,046,Chamber Pizz
+003,002,049,ChamberStr:
+003,002,051,StackStrings
+003,002,052,JUNO Strings
+003,002,057,Trumpet   :
+003,002,058,Twin bones
+003,002,061,Horn + Orche
+003,002,062,Bones Sect.
+003,002,063,Stack Brass
+003,002,064,Warm Brass
+003,002,074,Flute Exp.
+003,002,081,Hollow Mini
+003,002,082,Pulse Saw
+003,002,083,Pure PanLead
+003,002,087,5th Lead
+003,002,088,Fat & Perky
+003,002,089,New Age Pad
+003,002,090,Horn Pad
+003,002,091,Polysynth 2
+003,002,092,SC Heaven
+003,002,093,JP8 Sqr Pad
+003,002,094,Panner Pad
+003,002,095,Vox Sweep
+003,002,097,African wood
+003,002,098,Prologue
+003,002,099,Soft Crystal
+003,002,100,Nylon Harp
+003,002,101,OB Stab
+003,002,102,50's Sci-Fi
+003,002,103,Echo Pan
+003,002,105,Detune Sitar
+003,002,120,Reverse Cym3
+003,002,121,String Slap
+003,002,123,Thunder
+003,002,124,Horse-Gallop
+003,002,125,DoorCreaking
+003,002,126,Car-Stop
+003,002,127,Screaming
+003,002,128,Lasergun
+003,003,028,Open Hard 2
+003,003,030,More Drive
+003,003,031,Distortion:
+003,003,034,Jazz Bass 2
+003,003,035,Picked Bass4
+003,003,036,Fretless Bs4
+003,003,039,JP-4 Bass
+003,003,040,Seq Bass
+003,003,046,St.Pizzicato
+003,003,049,Cello sect.
+003,003,051,JP Strings
+003,003,061,Wide FreHrns
+003,003,063,SH-5 Brass
+003,003,074,Flt Travelso
+003,003,081,Mellow FM
+003,003,082,Feline GR
+003,003,087,5th Ana.Clav
+003,003,088,JUNO Rave
+003,003,089,Bell Heaven
+003,003,090,Rotary Strng
+003,003,091,Poly King
+003,003,093,7thBelPad
+003,003,097,Anklung Pad
+003,003,098,Prologue 2
+003,003,099,Round Glock
+003,003,100,Harpvox
+003,003,102,Abduction
+003,003,103,Echo Pan 2
+003,003,105,Sitar 3
+003,003,121,Gt.CutNoise2
+003,003,123,Wind
+003,003,124,Bird 2
+003,003,125,Door
+003,003,126,Car-Pass
+003,003,127,Punch
+003,003,128,Explosion
+003,004,028,JC Clean Gt.
+003,004,031,Dist.Fast :
+003,004,034,Rock Bass
+003,004,036,Syn Fretless
+003,004,039,JP-8 Bass
+003,004,040,MG Bass
+003,004,063,MKS Brass
+003,004,081,CC Solo
+003,004,082,Big Lead
+003,004,088,JP8 BsLead 1
+003,004,090,OB Soft Pad
+003,004,097,Rattle Pad
+003,004,098,Hols Strings
+003,004,099,Loud Glock
+003,004,100,HollowReleas
+003,004,102,Auhbient
+003,004,103,Big Panner
+003,004,121,Dist.CutNoiz
+003,004,123,Stream
+003,004,124,Kitty
+003,004,125,Scratch
+003,004,126,Car-Crash
+003,004,127,Heart Beat
+003,004,128,Eruption
+003,005,036,Mr.Smooth
+003,005,039,P5 Bass
+003,005,040,Mg Oct Bass1
+003,005,081,Shmoog
+003,005,082,Velo Lead
+003,005,088,JP8 BsLead 2
+003,005,099,GlockenChime
+003,005,100,Nylon+Rhodes
+003,005,102,LFO Pad
+003,005,103,Reso Panner
+003,005,121,Bass Slide
+003,005,123,Bubble
+003,005,124,Growl
+003,005,125,Wind Chimes
+003,005,126,Siren
+003,005,127,Footsteps
+003,005,128,Big Shot
+003,006,039,JPMG Bass
+003,006,040,MG Oct Bass2
+003,006,081,LM Square
+003,006,082,GR-300
+003,006,088,SH-5 Bs.Lead
+003,006,099,Clear Bells
+003,006,100,Ambient Pad
+003,006,102,Random Str
+003,006,103,Water Piano
+003,006,121,Pick Scrape
+003,006,123,Wind 2
+003,006,126,Train
+003,006,127,Applause 2
+003,007,040,MG Blip Bs:
+003,007,082,LA Saw
+003,007,099,ChristmasBel
+003,007,100,Invisible
+003,007,102,Random Pad
+003,007,125,Scratch 2
+003,007,126,Jetplane
+003,007,127,Small Club
+003,008,001,Piano 1w
+003,008,002,Piano 2w
+003,008,003,Piano 3w
+003,008,004,Honky-tonk 2
+003,008,005,St.Soft EP
+003,008,006,Detuned EP 2
+003,008,007,Coupled Hps.
+003,008,008,Comp Clav.
+003,008,012,Vibraphone w
+003,008,013,Marimba w
+003,008,015,Church Bell
+003,008,016,Cimbalom
+003,008,017,Trem. Organ
+003,008,018,Chorus Or.2
+003,008,019,Rotary Org.
+003,008,020,Church Org.2
+003,008,021,Wind Organ
+003,008,022,Accordion It
+003,008,024,Bandoneon 2
+003,008,025,Ukulele
+003,008,026,12-str.Gt
+003,008,027,Pedal Steel
+003,008,028,Chorus Gt.
+003,008,029,Funk Pop
+003,008,030,LP OverDrvGt
+003,008,031,Feedback Gt.
+003,008,032,Gt. Feedback
+003,008,033,Wild A.Bass
+003,008,034,ChorusJazzBs
+003,008,035,Muted PickBs
+003,008,036,Wood+FlessBs
+003,008,037,Reso Slap
+003,008,038,FM Slap
+003,008,039,Acid Bass
+003,008,040,Beef FM Bass
+003,008,041,Slow Violin
+003,008,045,Slow Tremolo
+003,008,046,Solo Pizz.
+003,008,049,Orchestra
+003,008,050,Legato Str.
+003,008,051,Syn.Strings3
+003,008,052,Air Strings
+003,008,053,St.ChoirAahs
+003,008,054,Voice Dahs
+003,008,055,Syn.Voice
+003,008,056,Impact Hit
+003,008,057,Flugel Horn
+003,008,058,Bs. Trombone
+003,008,060,Muted Horns
+003,008,061,F.Hrn Slow:
+003,008,062,Brass 2
+003,008,063,Pro Brass
+003,008,064,SynBrass sfz
+003,008,065,Soprano Exp.
+003,008,066,AltoSax Exp.
+003,008,067,BreathyTn.:
+003,008,069,Oboe Exp.
+003,008,072,Bs Clarinet
+003,008,073,Nay
+003,008,074,Flute + Vln
+003,008,076,Kawala
+003,008,081,2600 Sine
+003,008,082,Doctor Solo
+003,008,084,Mad Lead
+003,008,085,Dist.Lead
+003,008,086,Vox Lead
+003,008,087,4th Lead
+003,008,090,Octave Pad
+003,008,091,Power Stack
+003,008,092,Cosmic Voice
+003,008,095,Horror Pad
+003,008,096,Converge
+003,008,097,Clavi Pad
+003,008,098,Rave
+003,008,099,Vibra Bells
+003,008,100,Pulsey Key
+003,008,101,Org Bell
+003,008,102,LowBirds Pad
+003,008,103,Pan Sequence
+003,008,104,Dream Pad
+003,008,105,Tambra
+003,008,106,Rabab
+003,008,107,Syn Shamisen
+003,008,108,Taisho Koto
+003,008,109,Sanza
+003,008,110,Didgeridoo
+003,008,111,Er Hu
+003,008,112,Pungi
+003,008,113,Bonang
+003,008,114,Atarigane
+003,008,116,Castanets
+003,008,117,Concert BD
+003,008,118,Melo. Tom 2
+003,008,119,808 Tom
+003,008,120,Rev.Snare 1
+003,008,121,Gt. FX Menu
+003,008,125,ScratchKey
+003,008,126,Starship
+003,008,127,ApplauseWave
+003,009,005,Cho. E.Piano
+003,009,012,Vibraphones
+003,009,015,Carillon
+003,009,017,Organ o
+003,009,018,Octave Organ
+003,009,022,Dist. Accord
+003,009,026,Nylon+Steel
+003,009,028,JC Chorus Gt
+003,009,030,LP OverDrv:
+003,009,031,Feedback Gt2
+003,009,032,Gt.Feedback2
+003,009,037,Unison Slap
+003,009,039,TB303 Bass
+003,009,040,Dly Bass
+003,009,045,Suspense Str
+003,009,049,Orchestra 2
+003,009,050,Warm Strings
+003,009,051,Syn.Strings4
+003,009,053,Melted Choir
+003,009,055,Silent Night
+003,009,056,Philly Hit
+003,009,061,Dual Horns
+003,009,062,Brass 3
+003,009,063,P5 Brass
+003,009,064,OB Brass
+003,009,066,Grow Sax
+003,009,067,St.Tenor Sax
+003,009,073,Nay Tremolo
+003,009,081,Sine Lead
+003,009,082,Fat Saw Lead
+003,009,085,Acid Guitar1
+003,009,086,LFO Vox
+003,009,090,Stack Pad
+003,009,091,Octave Stack
+003,009,092,Auh Vox
+003,009,096,Shwimmer
+003,009,099,Digi Bells
+003,009,100,Noise Piano
+003,009,102,Falling Down
+003,009,103,Aqua
+003,009,104,Silky Pad
+003,009,106,San Xian
+003,009,111,Gao Hu
+003,009,113,Gender
+003,009,118,Rock Tom
+003,009,119,Elec Perc
+003,009,120,Rev.Snare 2
+003,009,121,Bartok Pizz.
+003,009,125,TapeRewind
+003,009,126,Burst Noise
+003,010,005,SilentRhodes
+003,010,039,Tekno Bass
+003,010,040,X Wire Bass
+003,010,049,Tremolo Orch
+003,010,050,St.Slow Str.
+003,010,053,Church Choir
+003,010,056,Double Hit
+003,010,062,Brass sfz
+003,010,064,Reso Brass
+003,010,081,KG Lead
+003,010,085,Acid Guitar2
+003,010,091,Reso Stack
+003,010,092,AuhAuh
+003,010,096,Celestial Pd
+003,010,099,Music Bell
+003,010,102,LFO RAVE
+003,010,113,Gamelan Gong
+003,010,119,Sine Perc.
+003,010,121,Guitar Slap
+003,010,125,Phono Noise
+003,010,126,Calculating
+003,011,039,TB303 Bass 2
+003,011,040,WireStr Bass
+003,011,049,Choir Str.
+003,011,056,Perc. Hit
+003,011,082,D-50 Fat Saw
+003,011,091,Techno Stack
+003,011,092,Vocorderman
+003,011,096,Bag Sweep
+003,011,099,Analog Bell
+003,011,102,LFO Horror
+003,011,113,St.Gamelan
+003,011,119,606 Tom
+003,011,121,Chord Stroke
+003,011,125,MC-500 Beep
+003,011,126,Perc. Bang
+003,012,039,Kicked TB303
+003,012,040,Blip Bass :
+003,012,049,Strings+Horn
+003,012,056,Shock Wave
+003,012,102,LFO Techno
+003,012,113,Jang Gu
+003,012,119,909 Tom
+003,012,121,Biwa Stroke
+003,013,039,TB303 Saw Bs
+003,013,040,RubberBass 1
+003,013,102,Alternative
+003,013,121,Biwa Tremolo
+003,014,039,Rubber303 Bs
+003,014,102,UFO FX
+003,015,039,Reso 303 Bs
+003,015,102,Gargle Man
+003,016,001,European Pf
+003,016,002,Dance Piano
+003,016,005,FM+SA EP
+003,016,006,St.FM EP
+003,016,007,Harpsi.w
+003,016,008,Reso Clav.
+003,016,013,Barafon
+003,016,016,Zither 1
+003,016,017,60's Organ 1
+003,016,019,Rotary Org.S
+003,016,020,Church Org.3
+003,016,022,Cho. Accord
+003,016,024,Bandoneon 3
+003,016,025,Nylon Gt.o
+003,016,026,Mandolin
+003,016,028,TC FrontPick
+003,016,029,Funk Gt.2
+003,016,031,Power Guitar
+003,016,032,Ac.Gt.Harmnx
+003,016,033,Bass + OHH
+003,016,034,F.Bass/Harm.
+003,016,035,P.Bass/Harm.
+003,016,039,Reso SH Bass
+003,016,040,RubberBass 2
+003,016,046,Solo Spic.
+003,016,047,Synth Harp
+003,016,049,St. Strings
+003,016,051,High Strings
+003,016,053,Choir Hahs
+003,016,055,VP330 Choir
+003,016,056,Lo Fi Rave
+003,016,057,4th Trumpets
+003,016,061,Synth Horn
+003,016,062,Brass Fall
+003,016,063,Oct SynBrass
+003,016,064,Velo Brass 1
+003,016,066,AltoSax + Tp
+003,016,069,Multi Reed
+003,016,072,Multi Wind
+003,016,073,Di
+003,016,074,Tron Flute
+003,016,076,Zampona
+003,016,081,P5 Square
+003,016,082,Waspy Synth
+003,016,085,P5 Sync Lead
+003,016,099,Choral Bells
+003,016,102,Sweep FX
+003,016,104,New Century
+003,016,105,Tamboura
+003,016,106,Gopichant
+003,016,108,Kanoon
+003,016,112,Hichiriki
+003,016,113,RAMA Cymbal
+003,016,114,Tambourine
+003,016,116,Angklung
+003,016,117,Jungle BD
+003,016,118,Rash SD
+003,016,120,Rev.Kick 1
+003,016,123,Pink Noise
+003,016,127,Voice One
+003,017,005,Dist E.Piano
+003,017,013,Barafon 2
+003,017,016,Zither 2
+003,017,017,60's Organ 2
+003,017,019,Rock Organ 1
+003,017,026,Mandolin 2
+003,017,028,TC Rear Pick
+003,017,031,Power Gt.2
+003,017,039,TB303 Sqr Bs
+003,017,040,SH101 Bass 1
+003,017,051,Hybrid Str.
+003,017,055,Vinyl Choir
+003,017,056,Techno Hit
+003,017,062,Trumpet Fall
+003,017,063,Hybrid Brass
+003,017,064,Transbrass
+003,017,076,Zampona Atk
+003,017,081,OB Square
+003,017,082,PM Lead
+003,017,085,Fat SyncLead
+003,017,099,Air Bells
+003,017,104,7th Atmos.
+003,017,116,Angkl Rhythm
+003,017,117,Techno BD
+003,017,118,House SD
+003,017,120,Rev.ConBD
+003,017,123,White Noise
+003,017,127,Voice Two
+003,018,017,60's Organ 3
+003,018,019,Rock Organ 2
+003,018,026,MandolinTrem
+003,018,028,TC Clean ff
+003,018,031,5th Dist.
+003,018,039,TB303 DistBs
+003,018,040,SH101 Bass 2
+003,018,056,Dist. Hit
+003,018,081,JP-8 Square
+003,018,082,CS Saw Lead
+003,018,085,Rock Lead
+003,018,099,Bell Harp
+003,018,104,Galaxy Way
+003,018,117,Bounce
+003,018,118,Jungle SD
+003,018,127,Voice Three
+003,019,017,Farf Organ
+003,019,028,TC Clean 2:
+003,019,040,Smooth Bass
+003,019,056,Bam Hit
+003,019,085,5th DecaSync
+003,019,099,Gamelimba
+003,019,108,Kanoon+Choir
+003,019,118,909 SD
+003,019,127,Voice Tah
+003,020,040,SH101 Bass 3
+003,020,056,Bit Hit
+003,020,085,Dirty Sync
+003,020,099,JUNO Bell
+003,020,127,Voice Whey
+003,021,040,Spike Bass
+003,021,056,Bim Hit
+003,022,040,House Bass:
+003,022,056,Technorg Hit
+003,023,040,KG Bass
+003,023,056,Rave Hit
+003,024,001,Piano + Str.
+003,024,005,Wurly
+003,024,006,Hard FM EP
+003,024,007,Harpsi.o
+003,024,008,Clav.o
+003,024,013,Log drum
+003,024,016,Dulcimer
+003,024,017,Cheese Organ
+003,024,019,Rotary Org.F
+003,024,020,Organ Flute
+003,024,022,Hard Accord
+003,024,025,Velo Harmnix
+003,024,031,Rock Rhythm
+003,024,032,E.Bass Harm.
+003,024,039,Arpeggio Bs
+003,024,040,Sync Bass
+003,024,049,Velo Strings
+003,024,051,Tron Strings
+003,024,053,Chorus Lahs
+003,024,056,Strings Hit
+003,024,057,Bright Tp.
+003,024,061,F.Horn Rip
+003,024,062,Octave Brass
+003,024,081,Pulse Lead
+003,024,082,MG Saw 1
+003,024,085,JUNO Sub Osc
+003,024,106,Oud
+003,024,108,Oct Harp
+003,024,112,Mizmar
+003,024,116,Finger Snaps
+003,024,120,Rev.Tom 1
+003,025,005,Hard Rhodes
+003,025,017,D-50 Organ
+003,025,022,Soft Accord
+003,025,031,Rock Rhythm2
+003,025,040,MG 5th Bass
+003,025,051,Noiz Strings
+003,025,056,Stack Hit
+003,025,057,Warm Tp.
+003,025,062,Brass + Reed
+003,025,081,JP8 PulseLd1
+003,025,082,MG Saw 2
+003,025,120,Rev.Tom 2
+003,026,005,MellowRhodes
+003,026,017,JUNO Organ
+003,026,040,RND Bass
+003,026,081,JP8 PulseLd2
+003,026,082,OB Saw 1
+003,027,017,Hybrid Organ
+003,027,040,WowMG Bass
+003,027,081,MG Reso. Pls
+003,027,082,OB Saw 2
+003,028,017,VS Organ
+003,028,040,Bubble Bass
+003,028,082,D-50 Saw
+003,028,106,Oud+Strings
+003,029,017,Digi Church
+003,029,082,SH-101 Saw
+003,030,082,CS Saw
+003,031,082,MG Saw Lead
+003,032,007,Synth Harpsi
+003,032,008,Analog Clav.
+003,032,017,70's E.Organ
+003,032,018,Perc. Organ
+003,032,020,Trem.Flute
+003,032,025,Nylon Gt.2
+003,032,026,Steel Gt.2
+003,032,049,Oct Strings1
+003,032,053,Chorus Aahs
+003,032,057,Syn. Trumpet
+003,032,082,OB Saw Lead
+003,032,106,Pi Pa
+003,032,112,Suona 1
+003,032,116,909 HandClap
+003,033,008,JP8 Clav. 1
+003,033,017,Even Bar
+003,033,020,Theater Org.
+003,033,049,Oct Strings2
+003,033,053,Male Aah+Str
+003,033,082,P5 Saw Lead
+003,033,112,Suona 2
+003,034,082,MG unison
+003,035,008,JP8 Clav. 2
+003,035,082,Oct Saw Lead
+003,040,017,Organ Bass
+003,040,025,Lequint Gt.
+003,040,082,SequenceSaw1
+003,041,082,SequenceSaw2
+003,042,082,Reso Saw
+003,043,082,Cheese Saw 1
+003,044,082,Cheese Saw 2
+003,045,082,Rhythmic Saw
+003,048,017,5th Organ
+003,126,001,Piano 2
+003,126,002,Piano 2
+003,126,003,Piano 2
+003,126,004,Honky-tonk
+003,126,005,Piano 1
+003,126,006,Piano 2
+003,126,007,Piano 2
+003,126,008,E.Piano 1
+003,126,009,Detuned EP1
+003,126,010,E.Piano 2
+003,126,011,Steel Gt.
+003,126,012,Steel Gt.
+003,126,013,12-str.Gt
+003,126,014,Funk Gt.
+003,126,015,Muted Gt.
+003,126,016,Slap Bass 1
+003,126,017,Slap Bass 1
+003,126,018,Slap Bass 1
+003,126,019,Slap Bass 1
+003,126,020,Slap Bass 2
+003,126,021,Slap Bass 2
+003,126,022,Slap Bass 2
+003,126,023,Slap Bass 2
+003,126,024,Fingered Bs
+003,126,025,Fingered Bs
+003,126,026,Picked Bass
+003,126,027,Picked Bass
+003,126,028,Fretless Bs
+003,126,029,Acoustic Bs
+003,126,030,Choir Aahs
+003,126,031,Choir Aahs
+003,126,032,Choir Aahs
+003,126,033,Choir Aahs
+003,126,034,SlowStrings
+003,126,035,Strings
+003,126,036,SynStrings3
+003,126,037,SynStrings3
+003,126,038,Organ 1
+003,126,039,Organ 1
+003,126,040,Organ 1
+003,126,041,Organ 2
+003,126,042,Organ 1
+003,126,043,Organ 1
+003,126,044,Organ 2
+003,126,045,Organ 2
+003,126,046,Organ 2
+003,126,047,Trumpet
+003,126,048,Trumpet
+003,126,049,Trombone
+003,126,050,Trombone
+003,126,051,Trombone
+003,126,052,Trombone
+003,126,053,Trombone
+003,126,054,Trombone
+003,126,055,Alto Sax
+003,126,056,Tenor Sax
+003,126,057,BaritoneSax
+003,126,058,Alto Sax
+003,126,059,Brass 1
+003,126,060,Brass 1
+003,126,061,Brass 2
+003,126,062,Brass 2
+003,126,063,Brass 1
+003,126,064,Orchest.Hit
+003,127,001,Acou Piano1
+003,127,002,Acou Piano2
+003,127,003,Acou Piano3
+003,127,004,Elec Piano1
+003,127,005,Elec Piano2
+003,127,006,Elec Piano3
+003,127,007,Elec Piano4
+003,127,008,Honkytonk
+003,127,009,Elec Org 1
+003,127,010,Elec Org 2
+003,127,011,Elec Org 3
+003,127,012,Elec Org 4
+003,127,013,Pipe Org 1
+003,127,014,Pipe Org 2
+003,127,015,Pipe Org 3
+003,127,016,Accordion
+003,127,017,Harpsi 1
+003,127,018,Harpsi 2
+003,127,019,Harpsi 3
+003,127,020,Clavi 1
+003,127,021,Clavi 2
+003,127,022,Clavi 3
+003,127,023,Celesta 1
+003,127,024,Celesta 2
+003,127,025,Syn Brass 1
+003,127,026,Syn Brass 2
+003,127,027,Syn Brass 3
+003,127,028,Syn Brass 4
+003,127,029,Syn Bass 1
+003,127,030,Syn Bass 2
+003,127,031,Syn Bass 3
+003,127,032,Syn Bass 4
+003,127,033,Fantasy
+003,127,034,Harmo Pan
+003,127,035,Chorale
+003,127,036,Glasses
+003,127,037,Soundtrack
+003,127,038,Atmosphere
+003,127,039,Warm Bell
+003,127,040,Funny Vox
+003,127,041,Echo Bell
+003,127,042,Ice Rain
+003,127,043,Oboe 2001
+003,127,044,Echo Pan
+003,127,045,Doctor Solo
+003,127,046,School Daze
+003,127,047,Bellsinger
+003,127,048,Square Wave
+003,127,049,Str Sect 1
+003,127,050,Str Sect 2
+003,127,051,Str Sect 3
+003,127,052,Pizzicato
+003,127,053,Violin 1
+003,127,054,Violin 2
+003,127,055,Cello 1
+003,127,056,Cello 2
+003,127,057,Contrabass
+003,127,058,Harp 1
+003,127,059,Harp 2
+003,127,060,Guitar 1
+003,127,061,Guitar 2
+003,127,062,Elec Gtr 1
+003,127,063,Elec Gtr 2
+003,127,064,Sitar
+003,127,065,Acou Bass 1
+003,127,066,Acou Bass 2
+003,127,067,Elec Bass 1
+003,127,068,Elec Bass 2
+003,127,069,Slap Bass 1
+003,127,070,Slap Bass 2
+003,127,071,Fretless 1
+003,127,072,Fretless 2
+003,127,073,Flute 1
+003,127,074,Flute 2
+003,127,075,Piccolo 1
+003,127,076,Piccolo 2
+003,127,077,Recorder
+003,127,078,Pan Pipes
+003,127,079,Sax 1
+003,127,080,Sax 2
+003,127,081,Sax 3
+003,127,082,Sax 4
+003,127,083,Clarinet 1
+003,127,084,Clarinet 2
+003,127,085,Oboe
+003,127,086,Engl Horn
+003,127,087,Bassoon
+003,127,088,Harmonica
+003,127,089,Trumpet 1
+003,127,090,Trumpet 2
+003,127,091,Trombone 1
+003,127,092,Trombone 2
+003,127,093,Fr Horn 1
+003,127,094,Fr Horn 2
+003,127,095,Tuba
+003,127,096,Brs Sect 1
+003,127,097,Brs Sect 2
+003,127,098,Vibe 1
+003,127,099,Vibe 2
+003,127,100,Syn Mallet
+003,127,101,Windbell
+003,127,102,Glock
+003,127,103,Tube Bell
+003,127,104,Xylophone
+003,127,105,Marimba
+003,127,106,Koto
+003,127,107,Sho
+003,127,108,Shakuhachi
+003,127,109,Whistle 1
+003,127,110,Whistle 2
+003,127,111,Bottleblow
+003,127,112,Breathpipe
+003,127,113,Timpani
+003,127,114,Melodic Tom
+003,127,115,Deep Snare
+003,127,116,Elec Perc 1
+003,127,117,Elec Perc 2
+003,127,118,Taiko
+003,127,119,Taiko Rim
+003,127,120,Cymbal
+003,127,121,Castanets
+003,127,122,Triangle
+003,127,123,Orche Hit
+003,127,124,Telephone
+003,127,125,Bird Tweet
+003,127,126,OneNote Jam
+003,127,127,Water Bell
+003,127,128,Jungle Tune
+004,000,001,Piano 1
+004,000,002,Piano 2
+004,000,003,Piano 3
+004,000,004,Honky-tonk
+004,000,005,E.Piano 1
+004,000,006,E.Paino 2
+004,000,007,Harpsichord
+004,000,008,Clav.
+004,000,009,Celesta
+004,000,010,Glockenspiel
+004,000,011,Music Box
+004,000,012,Vibraphone
+004,000,013,Marimba
+004,000,014,Xylophone
+004,000,015,Tubular-bell
+004,000,016,Santur
+004,000,017,Organ 1
+004,000,018,Organ 2
+004,000,019,Organ 3
+004,000,020,Church Org.1
+004,000,021,Reed Organ
+004,000,022,Accordion Fr
+004,000,023,Harmonica
+004,000,024,Bandoneon
+004,000,025,Nylon-str.Gt
+004,000,026,Steel-str.Gt
+004,000,027,Jazz Gt.
+004,000,028,Clean Gt.
+004,000,029,Muted Gt.
+004,000,030,Overdrive Gt
+004,000,031,DistortionGt
+004,000,032,Gt.Harmonics
+004,000,033,Acoustic Bs.
+004,000,034,Fingered Bs.
+004,000,035,Picked Bass
+004,000,036,Fretless Bs.
+004,000,037,Slap Bass 1
+004,000,038,Slap Bass 2
+004,000,039,Synth Bass 1
+004,000,040,Synth Bass 2
+004,000,041,Violin    :
+004,000,042,Viola     :
+004,000,043,Cello     :
+004,000,044,Contrabass
+004,000,045,Tremolo Str
+004,000,045,Trem Str.St.
+004,000,046,PizzicatoStr
+004,000,047,Harp
+004,000,048,Timpani
+004,000,049,Strings
+004,000,050,Slow Strings
+004,000,051,Syn.Strings1
+004,000,052,Syn.Strings2
+004,000,053,Choir Aahs
+004,000,054,Voice Oohs
+004,000,055,SynVox
+004,000,056,OrchestraHit
+004,000,057,Trumpet
+004,000,058,Trombone
+004,000,059,Tuba
+004,000,060,MutedTrumpet
+004,000,061,French Horns
+004,000,062,Brass 1
+004,000,063,Synth Brass1
+004,000,064,Synth Brass2
+004,000,065,Soprano Sax
+004,000,066,Alto Sax
+004,000,067,Tenor Sax
+004,000,068,Baritone Sax
+004,000,069,Oboe
+004,000,070,English Horn
+004,000,071,Bassoon
+004,000,072,Clarinet
+004,000,073,Piccolo
+004,000,074,Flute
+004,000,075,Recorder
+004,000,076,Pan Flute
+004,000,077,Bottle Blow
+004,000,078,Shakuhachi
+004,000,079,Whistle
+004,000,080,Ocarina
+004,000,081,Square Wave
+004,000,082,Saw Wave
+004,000,083,Syn.Calliope
+004,000,084,Chiffer Lead
+004,000,085,Charang
+004,000,086,Solo Vox
+004,000,087,5th Saw Wave
+004,000,088,Bass & Lead
+004,000,089,Fantasia
+004,000,090,Warm Pad
+004,000,091,Polysynth
+004,000,092,Space Voice
+004,000,093,Bowed Glass
+004,000,094,Metal Pad
+004,000,095,Halo Pad
+004,000,096,Sweep Pad
+004,000,097,Ice Rain
+004,000,098,Soundtrack
+004,000,099,Crystal
+004,000,100,Atmosphere
+004,000,101,Brightness
+004,000,102,Goblin
+004,000,103,Echo Drops
+004,000,104,Star Theme
+004,000,105,Sitar
+004,000,106,Banjo
+004,000,107,Shamisen
+004,000,108,Koto
+004,000,109,Kalimba
+004,000,110,Bagpipe
+004,000,111,Fiddle
+004,000,112,Shanai
+004,000,113,Tinkle Bell
+004,000,114,Agogo
+004,000,115,Steel Drums
+004,000,116,Woodblock
+004,000,117,Taiko
+004,000,118,Melo. Tom 1
+004,000,119,Synth Drum
+004,000,120,Reverse Cym.
+004,000,121,Gt.FretNoise
+004,000,122,Breath Noise
+004,000,123,Seashore
+004,000,124,Bird
+004,000,125,Telephone 1
+004,000,126,Helicopter
+004,000,127,Applause
+004,000,128,Gun Shot
+004,001,001,UprightPiano
+004,001,002,Pop Piano
+004,001,003,EG+Rhodes 1
+004,001,006,E.Paino 3
+004,001,007,Harpsichord2
+004,001,008,Clav. 2
+004,001,009,Pop Celesta
+004,001,011,Music Box 2
+004,001,012,Pop Vibe.
+004,001,016,Santur 2
+004,001,017,Organ 101
+004,001,018,Jazz Organ
+004,001,023,Harmonica 2
+004,001,027,Mellow Gt.
+004,001,028,Clean Half
+004,001,029,Muted Dis.Gt
+004,001,030,Overdrive 2
+004,001,031,Dist. Gt2 :
+004,001,033,Rockabilly
+004,001,034,Fingered Bs2
+004,001,035,Picked Bass2
+004,001,036,Fretless Bs2
+004,001,037,Slap Pop
+004,001,038,Slap Bass 3
+004,001,039,SynthBass101
+004,001,040,SynthBass201
+004,001,041,Violin Atk:
+004,001,042,Viola Atk.:
+004,001,043,Cello Atk.:
+004,001,046,Vcs&Cbs Pizz
+004,001,047,Harp&Strings
+004,001,049,Bright Str:
+004,001,050,SlowStrings2
+004,001,051,OB Strings
+004,001,052,Syn.Strings5
+004,001,054,Chorus Oohs
+004,001,055,SynVox 2
+004,001,056,Orch. Hit
+004,001,057,Trumpet 2
+004,001,058,Trombone 2
+004,001,059,Tuba 2
+004,001,060,Cup Mute Tb
+004,001,061,Fr.Horn 2
+004,001,062,Brass ff
+004,001,063,JUNO Brass
+004,001,064,Soft Brass
+004,001,067,Tenor Sax :
+004,001,068,Bari. Sax :
+004,001,073,Piccolo   :
+004,001,074,Flute 2   :
+004,001,078,Shakuhachi:
+004,001,079,Whistle 2
+004,001,081,MG Square
+004,001,082,OB2 Saw
+004,001,083,Vent Synth
+004,001,084,TB Lead
+004,001,085,Wire Lead
+004,001,086,Solo Vox 2
+004,001,087,Big Fives
+004,001,088,Big & Raw
+004,001,089,Fantasia 2
+004,001,090,Thick Matrix
+004,001,091,80's PolySyn
+004,001,092,Heaven II
+004,001,093,SoftBellPad
+004,001,094,Tine Pad
+004,001,095,Vox Pad
+004,001,096,Polar Pad
+004,001,097,Harmo Rain
+004,001,098,Ancestral
+004,001,099,Syn Mallet
+004,001,100,Warm Atmos
+004,001,101,Shining Star
+004,001,102,Goblinson
+004,001,103,Echo Bell
+004,001,104,Star Theme 2
+004,001,105,Sitar 2
+004,001,106,Muted Banjo
+004,001,107,Tsugaru
+004,001,108,Gu Zheng
+004,001,112,Shanai 2
+004,001,115,Island Mlt
+004,001,117,Small Taiko
+004,001,118,Real Tom
+004,001,120,Reverse Cym2
+004,001,121,Gt.Cut Noise
+004,001,122,Fl.Key Click
+004,001,123,Rain
+004,001,124,Dog
+004,001,125,Telephone 2
+004,001,126,Car-Engine
+004,001,127,Laughing
+004,001,128,Machine Gun
+004,002,001,Mild Piano
+004,002,002,Rock Piano
+004,002,003,EG+Rhodes 2
+004,002,007,Harpsichord3
+004,002,008,Atk Clav.1
+004,002,016,Santur 3
+004,002,017,Ful Organ 1
+004,002,018,E.Organ 16+2
+004,002,028,Open Hard 1
+004,002,029,TC Muted Gt.
+004,002,030,Overdrive 3
+004,002,031,Dazed Guitar
+004,002,034,Jazz Bass
+004,002,035,Picked Bass3
+004,002,036,Fretless Bs3
+004,002,039,CS Bass
+004,002,040,Modular Bass
+004,002,046,Chamber Pizz
+004,002,047,Harp St.
+004,002,049,ChamberStr:
+004,002,050,SlowStrings3
+004,002,051,StackStrings
+004,002,052,JUNO Strings
+004,002,054,Voice Oohs 2
+004,002,055,SynVox 3
+004,002,056,Orch. Hit
+004,002,057,Trumpet   :
+004,002,058,Twin bones
+004,002,060,MmuteTrumpet2
+004,002,061,Horn + Orche
+004,002,062,Bones Sect.
+004,002,063,Stack Brass
+004,002,064,Warm Brass
+004,002,074,Flute Exp.
+004,002,081,Hollow Mini
+004,002,082,Pulse Saw
+004,002,083,Pure PanLead
+004,002,084,Hybrid Lead
+004,002,085,FB.Charang
+004,002,087,5th Lead
+004,002,088,Fat & Perky
+004,002,089,New Age Pad
+004,002,090,Horn Pad
+004,002,091,Polysynth 2
+004,002,092,SC Heaven
+004,002,093,JP8 Sqr Pad
+004,002,094,Panner Pad
+004,002,095,Vox Sweep
+004,002,096,Ambient BPF
+004,002,097,African wood
+004,002,098,Prologue
+004,002,099,Soft Crystal
+004,002,100,Nylon Harp
+004,002,101,OB Stab
+004,002,102,50's Sci-Fi
+004,002,103,Echo Pan
+004,002,104,Star Mind
+004,002,105,Detune Sitar
+004,002,118,Real Tom 2
+004,002,120,Reverse Cym3
+004,002,121,String Slap
+004,002,122,Brth Nz Menu
+004,002,123,Thunder
+004,002,124,Horse-Gallop
+004,002,125,DoorCreaking
+004,002,126,Car-Stop
+004,002,127,Screaming
+004,002,128,Lasergun
+004,003,008,Atk Clav.2
+004,003,017,Ful Organ 2
+004,003,018,Jazz Organ 2
+004,003,028,Open Hard 2
+004,003,030,More Drive
+004,003,031,Distortion:
+004,003,034,Jazz Bass 2
+004,003,035,Picked Bass4
+004,003,036,Fretless Bs4
+004,003,039,JP-4 Bass
+004,003,040,Seq Bass
+004,003,046,St.Pizzicato
+004,003,047,Uiilean Harp
+004,003,049,Cello sect.
+004,003,051,JP Strings
+004,003,052,FiteredOrch
+004,003,054,Chorus Oohs2
+004,003,056,Orch. Hit
+004,003,057,Dark Trumpet
+004,003,058,Bones & Tuba
+004,003,060,MutedTrumpet3
+004,003,061,Wide FreHrns
+004,003,062,St. Brass ff
+004,003,063,SH-5 Brass
+004,003,064,Synth Brass3
+004,003,074,Flt Travelso
+004,003,081,Mellow FM
+004,003,082,Feline GR
+004,003,084,Unison SqrLd
+004,003,085,Fat GR Lead
+004,003,087,5th Ana.Clav
+004,003,088,JUNO Rave
+004,003,089,Bell Heaven
+004,003,090,Rotary Strng
+004,003,091,Poly King
+004,003,092,Itopia
+004,003,093,7thBelPad
+004,003,094,Steel Pad
+004,003,096,Sync Pad
+004,003,097,Anklung Pad
+004,003,098,Prologue 2
+004,003,099,Round Glock
+004,003,100,Harpvox
+004,003,101,Brass Star
+004,003,102,Abduction
+004,003,103,Echo Pan 2
+004,003,104,Star Dust
+004,003,105,Sitar 3
+004,003,118,Jazz Tom
+004,003,120,Reveree Cym4
+004,003,121,Gt.CutNoise2
+004,003,122,Fl.Breath 1
+004,003,123,Wind
+004,003,124,Bird 2
+004,003,125,Door
+004,003,126,Car-Pass
+004,003,127,Punch
+004,003,128,Explosion
+004,004,017,Ful Organ 3
+004,004,018,Jazz Organ 3
+004,004,028,JC Clean Gt.
+004,004,030,Guitar Pinch
+004,004,031,Dist.Fast :
+004,004,034,Rock Bass
+004,004,035,Double
+004,004,036,Syn Fretless
+004,004,039,JP-8 Bass
+004,004,040,MG Bass
+004,004,049,Bright Str.2
+004,004,051,Chorus Str.
+004,004,052,JP Saw Str.
+004,004,054,OohsCodemaj7
+004,004,057,Trumpet & Nz
+004,004,058,Bright Tb
+004,004,062,Quad Brass1
+004,004,063,MKS Brass
+004,004,064,Sync Brass
+004,004,081,CC Solo
+004,004,082,Big Lead
+004,004,084,FatSolo Lead
+004,004,085,Windy GR Ld
+004,004,087,5th Pulse
+004,004,088,JP8 BsLead 1
+004,004,089,Fantasia 3
+004,004,090,OB Soft Pad
+004,004,091,Super Poly
+004,004,092,Water Space
+004,004,093,Steel Glass
+004,004,094,Speciel Rave
+004,004,096,Warriors
+004,004,097,Rattle Pad
+004,004,098,Hols Strings
+004,004,099,Loud Glock
+004,004,100,HollowReleas
+004,004,101,Choir Stab
+004,004,102,Auhbient
+004,004,103,Big Panner
+004,004,104,Rep.Trance
+004,004,105,Sitar/Done
+004,004,118,Brush Tom
+004,004,121,Dist.CutNoiz
+004,004,122,Fl.Breath 2
+004,004,123,Stream
+004,004,124,Kitty
+004,004,125,Scratch
+004,004,126,Car-Crash
+004,004,127,Heart Beat
+004,004,128,Eruption
+004,005,017,Ful Organ 4
+004,005,018,Jazz Organ 4
+004,005,028,Atk CleanGt.
+004,005,030,Attack Drive
+004,005,031,Attack Dist
+004,005,034,Heart Bass
+004,005,036,Mr.Smooth
+004,005,039,P5 Bass
+004,005,040,Mg Oct Bass1
+004,005,049,Bright Str.3
+004,005,052,Hybrid Str.2
+004,005,054,OohsCodeSus4
+004,005,062,Quad Brass2
+004,005,063,Jump Brass
+004,005,064,Fat SynBrass
+004,005,081,Shmoog
+004,005,082,Velo Lead
+004,005,084,ForcefulLead
+004,005,085,Mellow GR Ld
+004,005,087,JP 5th Saw
+004,005,088,JP8 BsLead 2
+004,005,089,Fantasia 4
+004,005,090,Sine Pad
+004,005,092,Cold Space
+004,005,093,Bottle Stack
+004,005,094,Metal Pad 2
+004,005,099,GlockenChime
+004,005,100,Nylon+Rhodes
+004,005,102,LFO Pad
+004,005,103,Reso Panner
+004,005,097,Saw Impulse
+004,005,098,HistoryWave
+004,005,101,D-50 Retour
+004,005,104,Etherality
+004,005,105,Sitar 4
+004,005,121,Bass Slide
+004,005,122,Fl.Breath 3
+004,005,123,Bubble
+004,005,124,Growl
+004,005,125,Wind Chimes
+004,005,126,Siren
+004,005,127,Footsteps
+004,005,128,Big Shot
+004,006,017,Ful Organ 5
+004,006,018,Jazz Organ 5
+004,006,034,AttackFinger
+004,006,039,JPMG Bass
+004,006,040,MG Oct Bass2
+004,006,049,Quad Strings
+004,006,052,Dist.Strings
+004,006,054,Jazz Scat
+004,006,064,DeepSynBrass
+004,006,081,LM Square
+004,006,082,GR-300
+004,006,084,Oct.UnisonLd
+004,006,085,GR & Pulse
+004,006,087,JP8000 5thFB
+004,006,088,SH-5 Bs.Lead
+004,006,089,After D!
+004,006,090,OB Soft Pad2
+004,006,092,Noise Peaker
+004,006,097,Strange Str.
+004,006,099,Clear Bells
+004,006,100,Ambient Pad
+004,006,101,SouthernWind
+004,006,102,Random Str
+004,006,103,Water Piano
+004,006,104,Mystic Pad
+004,006,121,Pick Scrape
+004,006,122,Vox Breath 1
+004,006,123,Wind 2
+004,006,124,Growl
+004,006,126,Train
+004,006,127,Applause 2
+004,006,128,Explosion 2
+004,007,017,Ful Organ 6
+004,007,018,Jazz Organ 6
+004,007,034,Finger Slap
+004,007,040,MG Blip Bs:
+004,007,049,Mild Strings
+004,007,052,JUNOFullStr.
+004,007,081,JP8000 TWM
+004,007,082,LA Saw
+004,007,084,Unison SawLd
+004,007,088,Deleyed Lead
+004,007,089,260HarmPad
+004,007,092,Bamboo Hit
+004,007,097,FastFWD Pad
+004,007,099,ChristmasBel
+004,007,100,Invisible
+004,007,101,StmbolicBell
+004,007,102,Random Pad
+004,007,103,Echo SynBrass
+004,007,122,Vox Breath 2
+004,007,123,Cricket
+004,007,124,Fancy Animal
+004,007,125,Scratch 2
+004,007,126,Jetplane
+004,007,127,Small Club
+004,008,001,Uprihgt Pw
+004,008,002,Pop Piano w
+004,008,003,Piano 3w
+004,008,004,Honky-tonk 2
+004,008,005,St.Soft EP
+004,008,006,Detuned EP 2
+004,008,007,Coupled Hps.
+004,008,008,Comp Clav.
+004,008,011,St.Music Box
+004,008,012,Vibraphone w
+004,008,013,Marimba w
+004,008,014,Xylophone w
+004,008,015,Church Bell
+004,008,016,Cimbalom
+004,008,017,Trem. Organ
+004,008,017,DetunedOr.1
+004,008,018,Chorus Or.2
+004,008,019,Rotary Org.
+004,008,020,Church Org.2
+004,008,021,Wind Organ
+004,008,022,Accordion It
+004,008,023,B.Harp Basic
+004,008,024,Bandoneon 2
+004,008,025,Ukulele
+004,008,026,12-str.Gt
+004,008,027,Pedal Steel
+004,008,028,Chorus Gt.
+004,008,029,Funk Pop
+004,008,030,LP OverDrvGt
+004,008,031,Feedback Gt.
+004,008,032,Gt. Feedback
+004,008,033,Wild A.Bass
+004,008,034,ChorusJazzBs
+004,008,035,MutePickBs.
+004,008,036,Wood+FlessBs
+004,008,037,Reso Slap
+004,008,038,FM Slap
+004,008,039,Acid Bass
+004,008,040,Beef FM Bass
+004,008,041,Slow Violin
+004,008,045,Slow Tremolo
+004,008,046,Solo Pizz.
+004,008,049,Orchestra
+004,008,050,Legato Str.
+004,008,051,Syn.Strings3
+004,008,052,Air Strings
+004,008,053,St.ChoirAahs
+004,008,054,Voice Dahs
+004,008,055,Syn.Voice
+004,008,056,Impact Hit
+004,008,057,Flugel Horn
+004,008,058,Bs. Trombone
+004,008,059,Tuba + Horn
+004,008,060,Muted Horns
+004,008,061,F.Hrn Slow:
+004,008,062,Brass 2
+004,008,063,Pro Brass
+004,008,064,SynBrass sfz
+004,008,065,Soprano Exp.
+004,008,066,AltoSax Exp.
+004,008,067,BreathyTn.:
+004,008,068,Bari & Tenor
+004,008,069,Oboe Exp.
+004,008,072,Bs Clarinet
+004,008,073,Nay
+004,008,074,Flute + Vln
+004,008,076,Kawala
+004,008,081,2600 Sine
+004,008,082,Doctor Solo
+004,008,083,LM Pure Lead
+004,008,084,Mad Lead
+004,008,085,Dist.Lead
+004,008,086,Vox Lead
+004,008,087,4th Lead
+004,008,090,Octave Pad
+004,008,091,Power Stack
+004,008,092,Cosmic Voice
+004,008,095,Horror Pad
+004,008,096,Converge
+004,008,097,Clavi Pad
+004,008,098,Rave
+004,008,099,Vibra Bells
+004,008,100,Pulsey Key
+004,008,101,Org Bell
+004,008,102,LowBirds Pad
+004,008,103,Pan Sequence
+004,008,104,Dream Pad
+004,008,105,Tambra
+004,008,106,Rabab
+004,008,107,Syn Shamisen
+004,008,108,Taisho Koto
+004,008,109,Sanza
+004,008,110,Didgeridoo
+004,008,111,Er Hu
+004,008,112,Pungi
+004,008,113,Bonang
+004,008,114,Atarigane
+004,008,116,Castanets
+004,008,117,Concert BD
+004,008,118,Melo. Tom 2
+004,008,119,808 Tom
+004,008,120,Rev.Snare 1
+004,008,121,Gt. FX Menu
+004,008,122,Trombone Nz
+004,008,124,Seal
+004,008,125,ScratchKey
+004,008,126,Starship
+004,008,127,ApplauseWave
+004,009,001,Mild Piano w
+004,009,002,Rock Piano w
+004,009,005,Cho. E.Piano
+004,009,006,Detuned EP 3
+004,009,012,Vibraphones
+004,009,015,Carillon
+004,009,017,Organ o
+004,009,018,Octave Organ
+004,009,022,Dist. Accord
+004,009,023,B.Harp Suppl
+004,009,026,Nylon+Steel
+004,009,028,JC Chorus Gt
+004,009,030,LP OverDrv:
+004,009,031,Feedback Gt2
+004,009,032,Gt.Feedback2
+004,009,033,Atk A.Bass
+004,009,037,Unison Slap
+004,009,039,TB303 Bass
+004,009,040,Dly Bass
+004,009,045,Suspense Str
+004,009,049,Orchestra 2
+004,009,050,Warm Strings
+004,009,051,Syn.Strings4
+004,009,052,Atk Syn Str.
+004,009,053,Melted Choir
+004,009,054,JzVoice Dat
+004,009,056,Philly Hit
+004,009,061,Dual Horns
+004,009,062,Brass 3
+004,009,063,P5 Brass
+004,009,064,OB Brass
+004,009,066,Grow Sax
+004,009,067,St.Tenor Sax
+004,009,073,Nay Tremolo
+004,009,074,Pipe & Reed
+004,009,081,Sine Lead
+004,009,082,Fat Saw Lead
+004,009,083,LM Blow Lead
+004,009,084,CrowdingLead
+004,009,085,Acid Guitar1
+004,009,086,LFO Vox
+004,009,090,Stack Pad
+004,009,091,Octave Stack
+004,009,092,Auh Vox
+004,009,095,SynVox Pad
+004,009,096,Shwimmer
+004,009,097,EP Pad
+004,009,099,Digi Bells
+004,009,100,Noise Piano
+004,009,102,Falling Down
+004,009,103,Aqua
+004,009,104,Silky Pad
+004,009,106,San Xian
+004,009,109,Bodhran
+004,009,110,Uillean Pipe
+004,009,111,Gao Hu
+004,009,113,Gender
+004,009,117,ConcertBD Mt
+004,009,118,Rock Tom
+004,009,119,Elec Perc
+004,009,120,Rev.Snare 2
+004,009,121,Bartok Pizz.
+004,009,122,Trumpet Nz
+004,009,125,TapeRewind
+004,009,126,Burst Noise
+004,009,127,BadyLaughing
+004,010,005,SilentRhodes
+004,010,006,EP Legend
+004,010,015,Church Bell2
+004,010,017,Ful Organ 7
+004,010,026,Atk Steel Gt
+004,010,030,LP Harf DRV
+004,010,039,Tekno Bass
+004,010,040,X Wire Bass
+004,010,045,SuspenseStr2
+004,010,049,Tremolo Orch
+004,010,050,St.Slow Str.
+004,010,051,Syn.Strings6
+004,010,052,StraightStr.
+004,010,053,Church Choir
+004,010,054,JzVoice Bop
+004,010,055,Syn.Voice 2
+004,010,056,Double Hit
+004,010,062,Brass sfz
+004,010,063,OrchSynBrass
+004,010,064,Reso Brass
+004,010,081,KG Lead
+004,010,082,JP8000 Saw
+004,010,084,Double Sqr.
+004,010,085,Acid Guitar2
+004,010,086,Vox Lead 2
+004,010,090,Human Pad
+004,010,091,Reso Stack
+004,010,092,AuhAuh
+004,010,095,SynVox Pad 2
+004,010,096,Celestial Pd
+004,010,097,Tambra Pad
+004,010,099,Music Bell
+004,010,100,Heaven Atmos
+004,010,103,Panning Lead
+004,010,104,Dream Pad 2
+004,010,109,Bodhran Mute
+004,010,110,UillnPipe Nm
+004,010,102,LFO RAVE
+004,010,113,Gamelan Gong
+004,010,119,Sine Perc.
+004,010,121,Guitar Slap
+004,010,125,Phono Noise
+004,010,126,Calculating
+004,011,017,Ful Organ 8
+004,011,030,LP Harf DRV2
+004,011,039,TB303 Bass 2
+004,011,040,WireStr Bass
+004,011,049,Choir Str.
+004,011,050,St.Slow Str2
+004,011,051,Syn.Strings7
+004,011,053,Boys Choir 1
+004,011,054,JzVoice Doun
+004,011,056,Perc. Hit
+004,011,064,DistSqrBrass
+004,011,081,Twin Sine
+004,011,082,D-50 Fat Saw
+004,011,085,Dance Dst.Gt
+004,011,090,Sync Brs.Pad
+004,011,091,Techno Stack
+004,011,092,Vocorderman
+004,011,095,Breath&Rise
+004,011,096,Bag Sweep
+004,011,097,CP Pad
+004,011,099,Analog Bell
+004,011,100,Tambra Atmos
+004,011,102,LFO Horror
+004,011,103,PanningBrass
+004,011,104,Silky Pad 2
+004,011,110,UillnPipe Or
+004,011,113,St.Gamelan
+004,011,119,606 Tom
+004,011,121,Chord Stroke
+004,011,125,MC-500 Beep
+004,011,126,Perc. Bang
+004,012,017,Ful Organ 9
+004,012,030,LP Chorus
+004,012,039,Kicked TB303
+004,012,040,Blip Bass :
+004,012,049,Strings+Horn
+004,012,050,S.Str+Choir
+004,012,051,LoFi Strings
+004,012,053,Boys Choir 2
+004,012,054,JzVoice Trum
+004,012,056,Shock Wave
+004,012,062,Brass sfz 2
+004,012,064,JP8000SawBrs
+004,012,082,OB DoubleSaw
+004,012,085,DanceDst.Gt2
+004,012,090,Oct.PWM Pad
+004,012,091,Pulse Stack
+004,012,092,Holy Voice
+004,012,095,Tears Voice
+004,012,096,Sweep Pipe
+004,012,099,Blow Bell
+004,012,102,LFO Techno
+004,012,113,Jang Gu
+004,012,119,909 Tom
+004,012,121,Biwa Stroke
+004,012,125,Scratch 3
+004,012,126,Burner
+004,013,039,TB303 Saw Bs
+004,013,040,RubberBass 1
+004,013,049,Str.+Flute
+004,013,050,S.Str+Choir2
+004,013,053,St.BoysChoir
+004,013,056,Orch. Hit
+004,013,082,JP DoubleSaw
+004,013,090,JP Soft Pad
+004,013,091,TwinOct.Rave
+004,013,096,Sweep Stack
+004,013,099,Hyper Bell
+004,013,102,Alternative
+004,013,113,Jegogan
+004,013,119,606 Dist.Tom
+004,013,121,Biwa Tremolo
+004,013,125,Scratch 4
+004,013,126,Glass & Glam
+004,014,039,Rubber303 Bs
+004,014,040,Syn Bell Bs
+004,014,049,Choir Str.
+004,014,053,Rich Choir
+004,014,056,Orch. Hit
+004,014,062,FatPop Brass
+004,014,082,FatSawLead 2
+004,014,091,Oct.Rave
+004,014,096,Deep Sweep
+004,014,102,UFO FX
+004,014,113,Jublag
+004,014,125,Scratch 5
+004,014,126,Ice Ring
+004,015,039,Reso 303 Bs
+004,015,040,Odd Bass
+004,015,049,Choir Str.2
+004,015,056,Orch. Hit
+004,015,082,JP SuperSaw
+004,015,091,Happy Synth
+004,015,096,Stray Pad
+004,015,102,Gargle Man
+004,015,113,Pemade
+004,015,125,Scratch 6
+004,015,126,Over Blow
+004,016,001,European Pf
+004,016,002,Dance Piano
+004,016,005,FM+SA EP
+004,016,006,St.FM EP
+004,016,007,Harpsi.w
+004,016,008,Reso Clav.
+004,016,013,Barafon
+004,016,015,Tubularbellw
+004,016,016,Zither 1
+004,016,017,60's Organ 1
+004,016,019,Rotary Org.S
+004,016,020,Church Org.3
+004,016,021,Puff Organ
+004,016,022,Cho. Accord
+004,016,024,Bandoneon 3
+004,016,025,Nylon Gt.o
+004,016,026,Mandolin
+004,016,028,TC FrontPick
+004,016,029,Funk Gt.2
+004,016,032,Ac.Gt.Harmnx
+004,016,031,Power Guitar
+004,016,033,Bass + OHH
+004,016,034,F.Bass/Harm.
+004,016,035,P.Bass/Harm.
+004,016,039,Reso SH Bass
+004,016,040,RubberBass 2
+004,016,046,Solo Spic.
+004,016,047,Synth Harp
+004,016,049,St. Strings
+004,016,051,High Strings
+004,016,053,Choir Hahs
+004,016,054,VoiceLah Fem
+004,016,055,VP330 Choir
+004,016,056,Lo Fi Rave
+004,016,057,4th Trumpets
+004,016,058,Euphonium
+004,016,061,Synth Horn
+004,016,062,Brass Fall
+004,016,063,Oct SynBrass
+004,016,064,Velo Brass 1
+004,016,066,AltoSax + Tp
+004,016,069,Multi Reed
+004,016,072,Multi Wind
+004,016,073,Di
+004,016,074,Tron Flute
+004,016,076,Zampona
+004,016,081,P5 Square
+004,016,082,Waspy Synth
+004,016,085,P5 Sync Lead
+004,016,091,ForwardSweep
+004,016,099,Choral Bells
+004,016,102,Sweep FX
+004,016,104,New Century
+004,016,105,Tamboura
+004,016,106,Gopichant
+004,016,108,Kanoon
+004,016,112,Hichiriki
+004,016,113,RAMA Cymbal
+004,016,114,Tambourine
+004,016,116,Angklung
+004,016,117,Jungle BD
+004,016,118,Rash SD
+004,016,120,Rev.Kick 1
+004,016,121,A.Bs.Nz Menu
+004,016,123,Pink Noise
+004,016,125,Scratch 7
+004,016,126,Crack Bottle
+004,016,127,Voice One
+004,017,005,Dist E.Piano
+004,017,008,Phase Clav.
+004,017,013,Barafon 2
+004,017,016,Zither 2
+004,017,017,60's Organ 2
+004,017,019,Rock Organ 1
+004,017,026,Mandolin 2
+004,017,028,TC Rear Pick
+004,017,031,Power Gt.2
+004,017,039,TB303 Sqr Bs
+004,017,040,SH101 Bass 1
+004,017,046,StringsSpic.
+004,017,049,St.Strings 2
+004,017,051,Hybrid Str.
+004,017,054,ChorusLahFem
+004,017,055,Vinyl Choir
+004,017,056,Techno Hit
+004,017,062,Trumpet Fall
+004,017,063,Hybrid Brass
+004,017,064,Transbrass
+004,017,066,Sax Section
+004,017,072,Quad Wind
+004,017,074,Indian Flute
+004,017,076,Zampona Atk
+004,017,081,OB Square
+004,017,082,PM Lead
+004,017,085,Fat SyncLead
+004,017,091,ReverseSweep
+004,017,099,Air Bells
+004,017,102,LM Has Come
+004,017,104,7th Atmos.
+004,017,113,Kajar
+004,017,116,Angkl Rhythm
+004,017,117,Techno BD
+004,017,118,House SD
+004,017,120,Rev.ConBD
+004,017,121,D.Gt.Nz Menu
+004,017,123,White Noise
+004,017,126,Pour Bottle
+004,017,127,Voice Two
+004,018,017,60's Organ 3
+004,018,019,Rock Organ 2
+004,018,026,MandolinTrem
+004,018,028,TC Clean ff
+004,018,031,5th Dist.
+004,018,039,TB303 DistBs
+004,018,040,SH101 Bass 2
+004,018,049,St.Strings 3
+004,018,054,VoiceLau Fem
+004,018,055,JX8P Vox
+004,018,056,Dist. Hit
+004,018,063,OctSynBrass2
+004,018,081,JP-8 Square
+004,018,082,CS Saw Lead
+004,018,085,Rock Lead
+004,018,099,Bell Harp
+004,018,102,Fallinlnsect
+004,018,104,Galaxy Way
+004,018,113,Kelontuk
+004,018,117,Bounce
+004,018,118,Jungle SD
+004,018,121,E.Gt.NzMenu1
+004,018,126,Soda
+004,018,127,Voice Three
+004,019,017,Farf Organ
+004,019,028,TC Clean 2:
+004,019,039,Clavi Bass
+004,019,040,Smooth Bass
+004,019,049,Orchestra 3
+004,019,054,ChorusLauFem
+004,019,055,Analog Voice
+004,019,056,Bam Hit
+004,019,063,BPF Brass
+004,019,081,Dist Square
+004,019,085,5th DecaSync
+004,019,099,Gamelimba
+004,019,102,LFO Oct.Rave
+004,019,104,Rising OSC.
+004,019,108,Kanoon+Choir
+004,019,113,Kelontuk Mt
+004,019,118,909 SD
+004,019,121,E.Gt.NzMenu2
+004,019,126,Open CD Tray
+004,019,127,Voice Tah
+004,020,028,LP Rear Pick
+004,020,039,Hammer
+004,020,040,SH101 Bass 3
+004,020,049,Orchestra 4
+004,020,054,VoiceLan Fem
+004,020,056,Bit Hit
+004,020,081,303SqareDst1
+004,020,085,Dirty Sync
+004,020,099,JUNO Bell
+004,020,102,Just Before
+004,020,113,Kelontuk Sid
+004,020,121,G.StrokeMenu
+004,020,126,Audio Switch
+004,020,127,Voice Whey
+004,021,028,LP Rear 2
+004,021,039,Jungle Bass
+004,021,040,Spike Bass
+004,021,054,ChorusLanFem
+004,021,056,Bim Hit
+004,021,081,303SqareDst2
+004,021,085,DualSyncLead
+004,021,099,LP Bell
+004,021,102,RND Fl.Chord
+004,021,113,Kopyak Op
+004,021,121,Gt.SlideMenu
+004,021,126,Key Typing
+004,022,028,LP RearAtack
+004,022,039,Square Bass
+004,022,040,House Bass:
+004,022,054,VoiceAah Fem
+004,022,056,Technorg Hit
+004,022,081,303 Mix Sqr
+004,022,085,LA Brass Ld
+004,022,099,Pizz Bell
+004,022,102,RandomEnding
+004,022,113,Kopyak Mt
+004,022,121,A.Bs.Mute Nz
+004,022,126,SL 1
+004,022,127,Voice Kikit
+004,023,081,Dual Sqr&Saw
+004,023,028,Mid Tone GTR
+004,023,039,Square Bass2
+004,023,040,KG Bass
+004,023,054,VoiceUuh Fem
+004,023,056,Rave Hit
+004,023,099,Bottom Bell
+004,023,102,Random Sine
+004,023,113,Ceng Ceng
+004,023,121,A.Bs.TouchNz
+004,023,126,SL 2
+004,023,127,Voice ComeOn
+004,024,001,Piano + Str.
+004,024,005,Wurly
+004,024,006,Hard FM EP
+004,024,007,Harpsi.o
+004,024,008,Clav.o
+004,024,013,Log drum
+004,024,016,Dulcimer
+004,024,017,Cheese Organ
+004,024,019,Rotary Org.F
+004,024,020,Organ Flute
+004,024,022,Hard Accord
+004,024,025,Velo Harmnix
+004,024,028,Chung Ruan
+004,024,029,Jazz Man
+004,024,031,Rock Rhythm
+004,024,032,E.Bass Harm.
+004,024,039,Arpeggio Bs
+004,024,040,Sync Bass
+004,024,047,Yang Qin
+004,024,049,Velo Strings
+004,024,051,Tron Strings
+004,024,053,Chorus Lahs
+004,024,054,Fem Lah&Lan
+004,024,056,Strings Hit
+004,024,057,Bright Tp.
+004,024,061,F.Horn Rip
+004,024,062,Octave Brass
+004,024,076,Tin Whistle
+004,024,081,Pulse Lead
+004,024,082,MG Saw 1
+004,024,085,JUNO Sub Osc
+004,024,091,Minor Rave
+004,024,102,EatingFilter
+004,024,106,Oud
+004,024,108,Oct Harp
+004,024,112,Mizmar
+004,024,113,Reyoung
+004,024,116,Finger Snaps
+004,024,117,KendangWadon
+004,024,118,Jngl SD Roll
+004,024,120,Rev.Tom 1
+004,024,121,A.Bs.AtackNz
+004,024,126,Car Engine 2
+004,024,127,Voice Aou
+004,025,001,Piano + Str2
+004,025,005,Hard Rhodes
+004,025,017,D-50 Organ
+004,025,022,Soft Accord
+004,025,028,Chung Ruan 2
+004,025,031,Rock Rhythm2
+004,025,040,MG 5th Bass
+004,025,047,Yang Qin 2
+004,025,051,Noiz Strings
+004,025,056,Stack Hit
+004,025,057,Warm Tp.
+004,025,062,Brass + Reed
+004,025,076,TinWhtsle Nm
+004,025,081,JP8 PulseLd1
+004,025,082,MG Saw 2
+004,025,085,2600 Sub
+004,025,102,Noise&SawHit
+004,025,113,Kempur
+004,025,117,Beberongan
+004,025,120,Rev.Tom 2
+004,025,121,TC Up Nz
+004,025,126,Car Horn
+004,025,127,Voice Oou
+004,026,001,Piano+Choir1
+004,026,005,MellowRhodes
+004,026,017,JUNO Organ
+004,026,031,Dist Rtm GTR
+004,026,040,RND Bass
+004,026,047,SynthYangQin
+004,026,056,Indusry Hit
+004,026,057,Warm Tp.2
+004,026,062,Fat + Reed
+004,026,076,TinWhtsle Or
+004,026,081,JP8 PulseLd2
+004,026,082,OB Saw 1
+004,026,085,JP8000Fd Osc
+004,026,102,Pour Magic
+004,026,117,Pelegongan
+004,026,120,Rev.Tom 3
+004,026,121,TC DownMt.Nz
+004,026,126,Boeeeen
+004,026,127,Voice Hie
+004,027,001,Piano+Choir2
+004,027,017,Hybrid Organ
+004,027,040,WowMG Bass
+004,027,056,Clap Hit
+004,027,057,Twin Tp.
+004,027,081,MG Reso. Pls
+004,027,082,OB Saw 2
+004,027,102,DancingDrill
+004,027,117,Dholak 1
+004,027,120,Rev.Tom 4
+004,027,121,TC UpMt.Nz
+004,027,126,R.Crossing
+004,028,017,VS Organ
+004,028,040,Bubble Bass
+004,028,081,JP8 PulseLd3
+004,028,082,D-50 Saw
+004,028,102,Dirty Stack
+004,028,106,Oud+Strings
+004,028,117,Dholak 2
+004,028,121,TC Dowm Nz
+004,028,126,Compresser
+004,029,017,Digi Church
+004,029,040,Attack Pulse
+004,029,081,260RingLead
+004,029,082,SH-101 Saw
+004,029,102,Big Blue
+004,029,121,DstGT.Up Nz
+004,029,126,Sword Boom!
+004,030,017,JX8 Organ
+004,030,040,Sync Bass 2
+004,030,081,303DistLead
+004,030,102,Static Hit
+004,030,121,DstGT.DwnNz1
+004,030,126,Sword Cross
+004,030,082,CS Saw
+004,031,017,FM Organ
+004,031,040,Pulse Mix Bs
+004,031,081,JP8000DistLd
+004,031,082,MG Saw Lead
+004,031,102,Atl.Mod.FX
+004,031,121,DstGT.DwnNz2
+004,031,126,Stab! 1
+004,032,006,EP Phase
+004,032,007,Synth Harpsi
+004,032,008,Analog Clav.
+004,032,017,70's E.Organ
+004,032,018,Perc. Organ
+004,032,020,Trem.Flute
+004,032,025,Nylon Gt.2
+004,032,026,Steel Gt.2
+004,032,039,Hit&Saw Bass
+004,032,040,MG Dist Bass
+004,032,049,Oct Strings1
+004,032,053,Chorus Aahs
+004,032,054,VoicWah Mal
+004,032,057,Syn. Trumpet
+004,032,062,Orch Brass
+004,032,081,HipHop SinLd
+004,032,082,OB Saw Lead
+004,032,102,Acid Copter
+004,032,106,Pi Pa
+004,032,112,Suona 1
+004,032,116,909 HandClap
+004,032,113,Jngl Crash
+004,032,117,Jngl BD Roll
+004,032,121,DstGT.MuteNz
+004,032,126,Stab! 2
+004,033,008,JP8 Clav.1
+004,033,017,Even Bar
+004,033,018,Perc.Organ 2
+004,033,020,Theater Org.
+004,033,026,Steel + Body
+004,033,039,Ring Bass
+004,033,040,Seq Bass 2
+004,033,049,Oct Strings2
+004,033,053,Male Aah+Str
+004,033,054,ChorusWahMal
+004,033,062,Orch Brass 2
+004,033,082,P5 Saw Lead
+004,033,112,Suona 2
+004,033,081,HipHop SqrLd
+004,034,018,Perc.Organ 3
+004,034,039,AtkSineBass
+004,034,040,3rd Bass
+004,034,049,ContraBsSect
+004,034,054,VoicWoh Mal
+004,034,081,HipHop PlsLd
+004,034,082,MG unison
+004,034,121,Gt.StrokeNz5
+004,035,008,JP8 Clav.2
+004,035,018,Perc.Organ 4
+004,035,039,OB sine Bass
+004,035,040,MG Oct Bass
+004,035,054,ChorusWohMal
+004,035,062,St.FatPopBrs
+004,035,081,Flux Pulse
+004,035,082,Oct Saw Lead
+004,035,121,StlGt.SldNz1
+004,036,082,Natural Lead
+004,036,008,SynRingClav.
+004,036,039,Auxiliary Ba
+004,036,040,SolwEnvBass
+004,036,054,VoicAah Mal
+004,036,062,St.Orch Brs
+004,036,121,StlGt.SldNz2
+004,037,008,SynDistClav.
+004,037,040,Mild Bass
+004,037,054,VoicOoh Mal
+004,037,062,St.Orch Brs2
+004,037,121,StlGt.SldNz3
+004,038,008,JP8000 Clav.
+004,038,040,DistEnvBass
+004,038,062,St.Orch Brs3
+004,038,121,StlGt.SldNz4
+004,039,008,Pulse Clav.
+004,039,040,MG LightBass
+004,039,121,Gt.StrokeNz1
+004,040,017,Organ Bass
+004,040,025,Lequint Gt.
+004,040,039,303SqDistBs
+004,040,040,DistSynBass
+004,040,049,60s Strings
+004,040,054,Humming
+004,040,082,SequenceSaw1
+004,040,113,Crash Menu
+004,040,116,HandClapMenu
+004,040,117,Kick Menu 1
+004,040,118,SD Menu 1
+004,040,120,Rev.SD Menu1
+004,040,121,Gt.StrokeNz2
+004,041,039,303SqDistBs2
+004,041,040,Rise Bass
+004,041,082,SequenceSaw2
+004,041,113,RideCym Menu
+004,041,117,Kick Menu 2
+004,041,118,SD Menu 2
+004,041,120,Rev.SD Menu2
+004,041,121,Gt.StrokeNz3
+004,042,039,303SqDistBs3
+004,042,040,Cyber Bass
+004,042,082,Reso Saw
+004,042,113,RideBell Menu
+004,042,117,Kick Menu 3
+004,042,118,SD Menu 3
+004,042,120,Rev.SD Menu3
+004,042,121,Gt.StrokeNz4
+004,043,039,303Sqr.Rev
+004,043,082,Cheese Saw 1
+004,043,117,Kick Menu 4
+004,043,118,SD Menu 4
+004,043,120,Rev.BD Menu1
+004,044,039,TeeBee
+004,044,082,Cheese Saw 2
+004,044,118,SD Menu 5
+004,044,120,Rev.BD Menu2
+004,045,082,Rhythmic Saw
+004,045,120,Rev.BD Menu3
+004,046,082,SequencedSaw
+004,046,120,Rev.ClapMenu
+004,047,082,Techno Saw
+004,048,017,5th Organ

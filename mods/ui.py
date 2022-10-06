@@ -1,18 +1,33 @@
 from mods import ui_syx
 from mods import ui_efx
 from mods import ui_etc
-from mods import ui_mido
 from mods import storage
 from mods import common
 
+try:
+    from mods import ui_mido
+    print("MIDI OUT Loaded\n")
+except ImportError:
+    print("WARNING!")
+    print("python_rtmidi, mido Module Not Found.")
+    print("MIDI OUT Disabled. but hey, other things work as well. so you can continue.")
+    print("to use MIDI OUT Function, execute 'pip install -r requirements.txt'.")
+
 def ui_main():
     try:
+        print("== HOME MENU ==")
         if storage.protected:
             prt = ", Protected"
         else:
             prt = ""
-        print("0 : Temporary Storage (Current : " + str(len(storage.temp_store)) + prt +")")
-        print("9 : MIDI OUT")
+        print("0 : Memory (Current : " + str(len(storage.temp_store)) + prt +")")
+        try:
+            if ui_mido.mido_port == "":
+                print("9 : MIDI OUT")
+            else:
+                print("9 : MIDI OUT (" + ui_mido.mido_port + ")")
+        except NameError:
+            pass
         print("=====")
         print("1 : MIDI Reset")
         print("2 : System Effects")
@@ -23,7 +38,11 @@ def ui_main():
         if ipt1 == 0:
             storage.store_menu()
         elif ipt1 == 9:
-            ui_mido.ui_mido()
+            try:
+                ui_mido.ui_mido()
+            except NameError:
+                print("MIDI OUT Disabled. you may have to install definitions to use it.")
+                print("Exit this application, then execute 'pip install -r requirements.txt'.")
         elif ipt1 == 1:
             res = ui_syx.reset()
             print(res[1])

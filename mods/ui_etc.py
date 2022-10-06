@@ -49,5 +49,5 @@ def ui_etc():
         resx = common.gs_syx([0x40, 0x00, 0x06, 0x40 + ipt2])
         cmnt = "Set Master Pan to " + str(ipt2)
     else:
-        raise
+        raise ValueError("abort")
     return resx, cmnt
