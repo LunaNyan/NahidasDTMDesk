@@ -1,4 +1,4 @@
-![](doc/title.png)
+<img src="doc/title.png" width="300">
 
 # Nahida's DTM Desk
 CLI Tool to deal with Sound Canvas
