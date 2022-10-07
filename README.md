@@ -1,7 +1,8 @@
+
 <img src="doc/title.png" width="300">
 
 # Nahida's DTM Desk
-CLI Tool to deal with Sound Canvas
+CLI Tool to deal with Sound Canvas, to make MIDI great again
 
 # Functions
 - SysEx Generation from GM/GS MIDI Reset, to Insertion EFX (SC-88Pro ~ )
@@ -15,9 +16,6 @@ CLI Tool to deal with Sound Canvas
  - EFX Param
    - EQ-Freq
    - Azimuth
- - Etc
-   - Dot-Matrix Display
  - Tone Finder
- - Bulk Dump?
- - User Inst?
- - User Drum?
+ - User Drum
+ - User Inst

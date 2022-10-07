@@ -4,16 +4,17 @@ from mods import storage
 
 mido_port = ""
 mido_port_actual = None
-mido_rtout = False
+mido_port_in = ""
+mido_port_in_actual = None
 
 def test_port():
     print("1 : Test Instrument (Channel 1)")
     print("2 : Test Rhythm (Channel 10)")
     ipt = input("Test Section : ")
     if ipt == "1":
-        mf = "res/pno.mid"
+        mf = "res/test_mid/pno.mid"
     elif ipt == "2":
-        mf = "res/drm.mid"
+        mf = "res/test_mid/drm.mid"
     else:
         raise ValueError("abort")
     print("Playing..")
@@ -25,19 +26,20 @@ def test_port():
         mido_port_actual.send(msg)
 
 def ui_mido():
-    global mido_rtout, mido_port, mido_port_actual
+    global mido_port, mido_port_actual
+    global mido_port_in, mido_port_in_actual
     if mido_port == "":
         mprt = "OFF"
     else:
         mprt = mido_port
-    if mido_rtout:
-        mout = "OFF"
+    if mido_port_in == "":
+        mprti = "OFF"
     else:
-        mout = "ON"
-    print("1 : Set Port (" + mprt + ")")
-    print("2 : Send Storage")
-    print("3 : Test Port")
-    print("4 : Set Channel Instrument")
+        mprti = mido_port_in
+    print("1 : Set MIDI OUT (" + mprt + ")")
+    print("2 : Set MIDI IN (" + mprti + ")")
+    print("3 : Send Storage")
+    print("4 : Test Port")
     ipt1 = int(input(">>"))
     if ipt1 == 1:
         prts = mido.get_output_names()
@@ -55,7 +57,23 @@ def ui_mido():
             mido_port_actual = None
             mido_port = ""
             print("Port Closed")
-    elif ipt1 == 2:
+    if ipt1 == 2:
+        prts = mido.get_input_names()
+        cnt = 0
+        for i in prts:
+            print("#" + str(cnt) + " : " + i)
+            cnt += 1
+        print("other char : close port")
+        try:
+            ipt2 = int(input("Port : "))
+            mido_port_in = prts[ipt2]
+            mido_port_in_actual = mido.open_input(mido_port_in)
+        except:
+            mido_port_in_actual.close()
+            mido_port_in_actual = None
+            mido_port_in = ""
+            print("Port Closed")
+    elif ipt1 == 3:
         if len(storage.temp_store) == 0:
             print("No Items in Temporary Storage")
         else:
@@ -64,24 +82,10 @@ def ui_mido():
                 msg = mido.Message('sysex', data=tuple(m[0][1:-1]))
                 mido_port_actual.send(msg)
             print("Complete")
-    elif ipt1 == 3:
-        if mido_port_actual == None:
-            print("Open Port first")
-        else:
-            test_port()
     elif ipt1 == 4:
         if mido_port_actual == None:
             print("Open Port first")
         else:
-            iptc = int(input("Channel : "))
-            iptp = int(input("PC : "))
-            iptm = int(input("MSB : "))
-            iptl = int(input("LSB : "))
-            msgs = []
-            msgs.append(mido.Message('program_change', channel=iptc - 1, program=iptp))
-            msgs.append(mido.Message('control_change', channel=iptc - 1, control=0, value=iptm))
-            msgs.append(mido.Message('control_change', channel=iptc - 1, control=32, value=iptl))
-            for m in msgs:
-                mido_port_actual.send(m)
+            test_port()
     else:
         raise ValueError("abort")

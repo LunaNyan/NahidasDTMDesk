@@ -23,9 +23,9 @@ def ui_main():
         print("0 : Memory (Current : " + str(len(storage.temp_store)) + prt +")")
         try:
             if ui_mido.mido_port == "":
-                print("9 : MIDI OUT")
+                print("9 : MIDI")
             else:
-                print("9 : MIDI OUT (" + ui_mido.mido_port + ")")
+                print("9 : MIDI (" + ui_mido.mido_port + ")")
         except NameError:
             pass
         print("=====")
@@ -34,6 +34,11 @@ def ui_main():
         print("3 : Channel Settings")
         print("4 : Insertion Effects (EFX)")
         print("5 : Etc")
+        print("=====")
+        print("6 : User Drum")
+        print("7 : User Instrument")
+        print("=====")
+        print("8 : Tone Finder")
         ipt1 = int(input("> "))
         if ipt1 == 0:
             storage.store_menu()
