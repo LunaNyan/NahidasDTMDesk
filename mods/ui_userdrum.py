@@ -5,7 +5,19 @@ import time
 import mido
 
 def get_ex():
-    msg = mido.Message('sysex', data=tuple([0x41, 0x10, 0x42, 0x11, 0x0C, 0x00, 0x00, 0x00, 0x02, 0x00, 0x72]))
+    print("1 : ALL")
+    print("2 : PC#65")
+    print("3 : PC#66")
+    ipt = input(">> ")
+    if ipt == "1":
+        sx = [0x41, 0x10, 0x42, 0x11, 0x0C, 0x00, 0x00, 0x00, 0x02, 0x00, 0x72]
+    elif ipt == "2":
+        sx = [0x41, 0x10, 0x42, 0x11, 0x0C, 0x00, 0x00, 0x00, 0x02, 0x40, 0x32]
+    elif ipt == "3":
+        sx = [0x41, 0x10, 0x42, 0x11, 0x0C, 0x00, 0x00, 0x00, 0x02, 0x41, 0x31]
+    else:
+        return
+    msg = mido.Message('sysex', data=tuple(sx))
     ui_mido.mido_port_actual.send(msg)
     print("Wait 3 sec..")
     time.sleep(3)
@@ -38,8 +50,14 @@ def translate_key(ipt):
         return res
 
 def ui_userdrum():
-    if ui_mido.mido_port == "" or ui_mido.mido_port_in == "":
-        print("both MIDI OUT and MIDI IN is required.")
+    try:
+        if ui_mido.mido_port == "" or ui_mido.mido_port_in == "":
+            print("both MIDI OUT and MIDI IN is required.")
+            return
+    except:
+        print("mido, python_rtmidi is required")
+        print("Windows : pip install -r requirements.txt")
+        print("Linux : pip3 install -r requirements.txt")
         return
     print("Welcome to User Drum Zone")
     drmpc = 0x00
@@ -97,6 +115,23 @@ def ui_userdrum():
             ]
             for i in syx:
                 ui_mido.mido_port_actual.send(mido.Message('sysex', data=tuple(i)))
+        elif ipt1 == "2":
+            mnu = ["Assign Group", "Panpot", "Reverb Send Level", "Chorus Send Level", "Delay Send Level"]
+            mnu_address = [0x03, 0x04, 0x05, 0x06, 0x09]
+            cnt = 1
+            for i in mnu:
+                print(str(cnt) + " : " + i)
+            ipt2 = int(input(">> "))
+            try:
+                ipt3 = int(input(mnu[ipt2 - 1] + " : "))
+            except Exception as e:
+                print(e)
+                continue
+            if ipt3 > 127 or ipt3 < 0:
+                print("Invalid Value")
+                continue
+            sx = [0x41, 0x10, 0x42, 0x12, 0x21, drmpc + mnu_address[ipt2 - 1], ipt3, common.checksum([0x21, drmpc + mnu_address[ipt2 - 1], ipt3])]
+            ui_mido.mido_port_actual.send(mido.Message('sysex', data=tuple(sx)))
         elif ipt1 == "3":
             get_ex()
         elif ipt1 == "9":
